@@ -130,13 +130,18 @@ and that is the entire premise of this meeting.
 :::
 :::
 
-## The programme *is* the argument {.money}
+## Five areas. Three communities. {.money}
 
 ::: {.note style="text-align:center; margin-top:-0.7em; font-size:0.8em"}
-Read it left to right: **state of the art** on Wednesday, **new directions** by Friday.
+Eighteen talks over three days.
 :::
 
-![](figures/fig_programme.svg)
+{{< include figures/_fig_topics.qmd >}}
+
+::: {.fragment fragment-index=5 .lead style="text-align:center; margin-top:0.1em; font-size:0.82em"}
+[**6 · 5 · 7**]{style="color:#EB811B"} across the three communities — and no single
+area more than a **third** of the programme. That was the point.
+:::
 
 ## Ten invited speakers
 

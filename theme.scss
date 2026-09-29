@@ -155,13 +155,20 @@ $muted-color:  #8a9aa0;
   transition-delay: 0.9s;
 }
 
-// Slide 3: the two boxes live in the left column, so fill the column width and
-// just cap the height (so a tall/narrow projector can't blow them up).
-.reveal .slides svg.ring-fig {
+// The topics donut is inline SVG (each wedge has to be a reveal fragment), so
+// the `.money img` rules never reach it -- size it on its own.
+.reveal .slides svg.topics-fig {
   width: 100%;
   height: auto;
-  max-height: 48vh;
+  max-height: 66vh;
   margin: 0 auto;
+}
+
+// Inline SVG doesn't inherit the deck's font, and unlike the matplotlib figures
+// its text is real <text>, not outlined paths. Name the face explicitly.
+.reveal .topics-fig text {
+  font-family: "Fira Sans", Helvetica, sans-serif;
+  font-weight: 300;
 }
 
 // --- footer / slide number: present, quiet ------------------------------------

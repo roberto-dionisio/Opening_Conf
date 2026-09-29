@@ -13,13 +13,17 @@ The same three colors label the talks in fig_programme, so by the time the
 audience sees the timetable they have already learned what the colors mean.
 """
 
+import math
+from pathlib import Path
+
 import matplotlib.patches as mpatches
 import matplotlib.pyplot as plt
-from matplotlib.patheffects import withStroke
 
 import talkstyle as ts
 
 ts.use()
+
+HERE = Path(__file__).parent
 
 
 # =============================================================================
@@ -249,8 +253,94 @@ def fig_programme():
         ts.save(fig, "fig_programme")
 
 
+# =============================================================================
+# fig_topics -- the 18 talks by area, as a donut whose wedges sweep in
+# =============================================================================
+# Written as inline SVG (not matplotlib) so each wedge can be a reveal fragment.
+# The sweep reuses the .draw-line machinery already in theme.scss: the wedge is
+# an arc *stroked* thickly rather than a filled pie slice, so animating
+# stroke-dashoffset from its own length down to 0 draws it round the circle.
+#
+# theme.scss reads that length from `--len`. The Lattice deck set it with a
+# getTotalLength() script on load, which had to be re-run on slidechanged
+# because it reads 0 on a slide that was never visible. An arc's length is just
+# R*dtheta, so we write the exact number into the markup and need no JS at all.
+
+# (label, n talks, colour). Five areas, but only three hues: the two QCD areas
+# share teal and the two quantum areas share blue, so the donut still reads as
+# the three communities from the previous slides while naming real topics.
+TOPICS = [
+    ("Precision QCD &amp; flavour", 3, "#23373B"),
+    ("Topology &amp; finite-<tspan font-style='italic'>T</tspan> QCD", 3, "#55787D"),
+    ("Generative models &amp; sampling", 5, "#EB811B"),
+    ("Quantum simulation of gauge theories", 4, "#3B7EA1"),
+    ("Quantum many-body &amp; control", 3, "#82B3CB"),
+]
+
+CX, CY, R_MID, RING = 236.0, 238.0, 150.0, 58.0
+GAP_DEG = 1.7          # half-gap trimmed off each end of every wedge
+LEGEND_X, ROW_H = 500.0, 74.0
+
+
+def _arc(a0, a1):
+    """Stroked-arc path from angle a0 to a1 (degrees, 0 = 3 o'clock, clockwise
+    on screen because SVG y points down), plus its length in user units."""
+    p0 = (CX + R_MID * math.cos(math.radians(a0)),
+          CY + R_MID * math.sin(math.radians(a0)))
+    p1 = (CX + R_MID * math.cos(math.radians(a1)),
+          CY + R_MID * math.sin(math.radians(a1)))
+    large = 1 if (a1 - a0) > 180 else 0
+    d = (f"M {p0[0]:.2f} {p0[1]:.2f} "
+         f"A {R_MID:.2f} {R_MID:.2f} 0 {large} 1 {p1[0]:.2f} {p1[1]:.2f}")
+    return d, R_MID * math.radians(a1 - a0)
+
+
+def fig_topics():
+    total = sum(n for _, n, _ in TOPICS)
+    out = ['```{=html}',
+           '<svg class="anim-fig topics-fig" viewBox="0 0 1000 470" '
+           'xmlns="http://www.w3.org/2000/svg">']
+
+    # the ring the wedges land on, so the shape reads before anything sweeps
+    out.append(f'  <circle cx="{CX}" cy="{CY}" r="{R_MID}" fill="none" '
+               f'stroke="#e3e6e6" stroke-width="{RING}"/>')
+
+    angle = -90.0  # start at twelve o'clock, sweep clockwise
+    for i, (label, n, color) in enumerate(TOPICS):
+        span = 360.0 * n / total
+        d, length = _arc(angle + GAP_DEG, angle + span - GAP_DEG)
+        row_y = 95.0 + i * ROW_H
+
+        out.append(f'  <g class="fragment draw-line" data-fragment-index="{i}" '
+                   f'style="--len:{length:.2f}">')
+        out.append(f'    <path d="{d}" fill="none" stroke="{color}" '
+                   f'stroke-width="{RING}" stroke-linecap="butt"/>')
+        out.append(f'    <rect x="{LEGEND_X}" y="{row_y - 15:.0f}" width="21" '
+                   f'height="21" rx="4" fill="{color}"/>')
+        out.append(f'    <text x="{LEGEND_X + 36:.0f}" y="{row_y:.0f}" '
+                   f'font-size="24" fill="#33474B">{label}</text>')
+        out.append(f'    <text x="{LEGEND_X + 36:.0f}" y="{row_y + 27:.0f}" '
+                   f'font-size="19" fill="#8A9AA0">{n} talks  ·  '
+                   f'{100.0 * n / total:.0f}%</text>')
+        out.append('  </g>')
+        angle += span
+
+    # the total sits in the hole, present from the first moment
+    out.append(f'  <text x="{CX}" y="{CY - 4:.0f}" text-anchor="middle" '
+               f'font-size="62" fill="#23373B">{total}</text>')
+    out.append(f'  <text x="{CX}" y="{CY + 30:.0f}" text-anchor="middle" '
+               f'font-size="23" fill="#8A9AA0">talks</text>')
+    out.append('</svg>')
+    out.append('```')
+
+    path = HERE / "_fig_topics.qmd"
+    path.write_text("\n".join(out) + "\n")
+    print(f"  wrote figures/{path.name}  ({len(TOPICS)} wedges, {total} talks)")
+
+
 if __name__ == "__main__":
     print("building StaND4LQ opening figures")
     fig_reach()
     fig_programme()
+    fig_topics()
     print("done")
