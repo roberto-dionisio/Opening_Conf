@@ -155,6 +155,15 @@ $muted-color:  #8a9aa0;
   transition-delay: 0.9s;
 }
 
+// The walking map to the restaurant is a screenshot with no margin of its own,
+// so give it an edge rather than letting it bleed into the slide background.
+.reveal .slides img.map-shot {
+  border-radius: 8px;
+  border: 1px solid #c9d2d5;
+  max-height: 62vh;
+  width: 100%;
+}
+
 // The topics donut is inline SVG (each wedge has to be a reveal fragment), so
 // the `.money img` rules never reach it -- size it on its own.
 .reveal .slides svg.topics-fig {

@@ -61,19 +61,19 @@ header-includes:
 ## Welcome {.center}
 
 ::: {.lead style="text-align:center; font-size:1.15em; margin-top:0.2em"}
-Benvenuti a Pisa — and welcome to the **first edition** of StaND4LQ.
+Benvenuti a Pisa and welcome to the **first edition** of StaND4LQ.
 :::
 
 ::: {.fragment style="margin-top:1.4em; border-left:5px solid #EB811B; background:rgba(235,129,27,0.07); border-radius:6px; padding:0.6em 1.3em"}
 This workshop is organised **entirely by PhD students** of the University of Pisa.
 
 ::: {.note style="margin-top:0.4em"}
-No senior committee, no registration fee — just the meeting we wanted to attend.
+No senior committee and no registration fee.
 :::
 :::
 
 ::: {.fragment .lead style="text-align:center; margin-top:1.5em; font-size:0.95em"}
-Three days, [**eighteen talks**]{.defect}, [**ten invited speakers**]{.easy}, and one
+Three days, [**eighteen talks**]{.defect}, [**nine invited speakers**]{.easy}, and one
 long discussion with no talks at all.
 :::
 
@@ -125,12 +125,12 @@ The wall is not a technicality. It is a **sign problem**, an ill-posed
 
 ::: {.fragment style="margin-top:1.3em"}
 ::: {.eqbox style="display:block; text-align:center; font-size:0.9em"}
-None of these four problems belongs to a single community — <br>
+None of these four problems belongs to a single community <br>
 and that is the entire premise of this meeting.
 :::
 :::
 
-## Five areas. Three communities. {.money}
+## Five main areas {.money}
 
 ::: {.note style="text-align:center; margin-top:-0.7em; font-size:0.8em"}
 Eighteen talks over three days.
@@ -138,12 +138,8 @@ Eighteen talks over three days.
 
 {{< include figures/_fig_topics.qmd >}}
 
-::: {.fragment fragment-index=5 .lead style="text-align:center; margin-top:0.1em; font-size:0.82em"}
-[**6 · 5 · 7**]{style="color:#EB811B"} across the three communities — and no single
-area more than a **third** of the programme. That was the point.
-:::
 
-## Ten invited speakers
+## Nine invited speakers
 
 ::: {.speakers}
 ::: {.sp}
@@ -152,9 +148,7 @@ area more than a **third** of the programme. That was the point.
 ::: {.sp}
 [Pietro Butti]{.nm} <br> [University of Southern Denmark]{.af}
 :::
-::: {.sp}
-[Elia Cellini]{.nm} <br> [University of Edinburgh · Higgs Centre]{.af}
-:::
+
 ::: {.sp}
 [Bipasha Chakraborty]{.nm} <br> [University of Southampton]{.af}
 :::
@@ -179,7 +173,7 @@ area more than a **third** of the programme. That was the point.
 :::
 
 ::: {.fragment .note style="text-align:center; margin-top:0.8em"}
-Nine contributed talks from early-career researchers sit alongside them — by design,
+Nine contributed talks from early-career researchers sit alongside them by design,
 not as filler.
 :::
 
@@ -246,17 +240,40 @@ Largo Bruno Pontecorvo 3, Pisa
 :::
 ::: {.column width="48%"}
 
-::: {.fragment style="border:3px dashed #EB811B; border-radius:10px; padding:0.6em 1em; background:rgba(235,129,27,0.09); text-align:center"}
-[**Social dinner**]{style="font-size:1.05em"}
+::: {.lead style="font-size:0.82em; line-height:1.7"}
+**Talk slots** <br>
+Invited 50 minutes, contributed 30, <br>
+questions included.
 
-Ristorante **La Grotta**, Pisa <br>
-Thursday 1 October, **20:00**
-:::
-
-::: {.fragment .note style="text-align:center; margin-top:1.1em"}
-Anything at all — find any of the four of us, or write to <br>
+::: {style="margin-top:1.1em"}
+**Anything at all**: find any of the four of us, or write to <br>
 [stand4lq_workshop@lists.infn.it]{style="color:#3B7EA1"}
 :::
+:::
+
+:::
+::::
+
+## Social dinner {.center}
+
+:::: {.columns}
+::: {.column width="31%"}
+
+::: {style="border:3px dashed #EB811B; border-radius:10px; padding:0.7em 1em; background:rgba(235,129,27,0.09); text-align:center"}
+Ristorante **La Grotta**
+
+Thursday 1 October <br> [**20:00**]{style="font-size:1.15em"}
+:::
+
+::: {.fragment .lead style="text-align:center; margin-top:1.3em; font-size:0.8em"}
+[**7 minutes on foot**]{style="color:#EB811B"} from this room, <br>
+straight down Via San Francesco.
+:::
+
+:::
+::: {.column width="69%"}
+
+![](cena.png){.map-shot}
 
 :::
 ::::
@@ -264,7 +281,7 @@ Anything at all — find any of the four of us, or write to <br>
 ## Thank you {.center}
 
 ::: {.fragment .lead style="margin-top:0.6em; font-size:0.9em"}
-This workshop is supported by the **University of Pisa** and **INFN, Sezione di Pisa** —
+This workshop is supported by the **University of Pisa** and **INFN, Sezione di Pisa**,
 which is why nobody paid to walk through the door.
 :::
 
