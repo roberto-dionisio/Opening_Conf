@@ -6,21 +6,22 @@ Wednesday 30 September 2026, 09:00-09:15, Aula Magna, Polo Fibonacci
 
 11 slides, 16 clicks. "-> CLICK" marks a fragment.
 
-Reading this at a measured pace comes to about 10 min, which sits
-comfortably inside the 09:00-09:15 slot. The spare four minutes are there on
-purpose: people arrive late, laptops misbehave, and you want to hand over to
-Claudio without rushing. Do not try to fill them.
+Reading this at a measured pace comes to about 9 min 15 s, which sits well
+inside the 09:00-09:15 slot. The spare time is there on purpose: people
+arrive late, laptops misbehave, and you want to hand over to Claudio without
+rushing. Do not try to fill it.
 
 TIMING CHECKPOINTS (from a 09:00 start)
-    09:04   leaving slide 3, the wall figure
-    09:05   leaving slide 4, the wheel
-    09:07   on slide 7, practical information
-    09:10   done, handing over
+    09:03   leaving slide 3, the three communities
+    09:04   leaving slide 4, the wheel
+    09:06   leaving slide 6, the discussion session
+    09:09   done, handing over
 
 IF YOU ARE RUNNING LATE, cut in this order:
-    1. the four barriers on slide 3 - name two, not four
-    2. the wedge-by-wedge walk on slide 4 - give the totals only
-    3. slide 7 down to venue + coffee, drop the timing paragraph
+    1. the wedge-by-wedge walk on slide 4 - give the totals only
+    2. slide 7 down to venue + coffee, drop the timing paragraph
+    3. on slide 3, one line per community instead of two - but do not cut a
+       community, that is the one thing this slide cannot afford
 
 
 ===============================================================================
@@ -58,52 +59,36 @@ because it is the part I care about most.
 
 
 ===============================================================================
-SLIDE 3 - WHERE WE ARE, AND WHAT STOPS US                                [2:34]
+SLIDE 3 - THREE COMMUNITIES, ONE SET OF QUESTIONS                        [1:43]
 ===============================================================================
 
 Let me say why we thought this particular meeting was worth organising.
 
-Lattice field theory has become a precision science. On the left of this
-picture is the regime where that is true: Euclidean, in equilibrium, at zero
-chemical potential. In that corner we compute at the per-mille level. That is
-a real achievement, and it took forty years.
+There are three communities in this room, and each one arrives with something
+the other two do not have.
 
-And precisely because we are that precise, we can see very clearly where it
-stops.
+Lattice field theory brings four decades of non-perturbative precision.
+First-principles calculations, at the per-mille level, in a theory nobody can
+solve with a pencil.
 
-In the middle is the wall. It is not one obstacle. It is four, and each one
-stands in front of something specific.
+Machine learning brings new ways to sample, and new ways to represent what we
+sample. Some of them are only a few years old, and they are already changing
+what is affordable.
 
-    Critical slowing down and topological freezing block the continuum
-    limit. As the lattice spacing goes down, autocorrelation times blow up,
-    and the topological charge simply stops moving.
+And quantum simulation brings access to regimes the Euclidean approach simply
+cannot reach. Real time. Finite density. Strongly entangled states.
 
-    The sign problem blocks finite density. The measure stops being
-    positive, so importance sampling stops being sampling.
-
-    Analytic continuation blocks real-time dynamics. Going from Euclidean to
-    Minkowski is an ill-posed inverse problem.
-
-    And the exponential growth of the Hilbert space blocks anything with a
-    lot of entanglement.
-
-The first of those is not exotic and it is not in the future. It is already
-here, at the lattice spacings we use today. The other three are the reason
-the Hamiltonian formulation keeps coming back.
-
-At the bottom are the three families of method being thrown at that wall:
-generative models and normalising flows, tensor networks and neural quantum
-states, and quantum hardware. Lattice field theory, quantum information,
-machine learning, quantum many-body physics.
+Three different sets of tools. But look at what they are all pointed at. It is
+the same physics, and it has been the same physics all along.
 
     -> CLICK
 
-And here is the point. Not one of those four barriers belongs to a single one
-of those communities. Not one.
+One thing I want to be clear about, because it shaped the whole programme.
+None of these three is a service department for the other two. They are three
+genuine routes to the same questions, and those questions are older than any
+of our methods.
 
-That is the entire premise of this meeting. It is why we did not organise a
-lattice workshop, and we did not organise a quantum simulation workshop. We
-organised this.
+That is why we did not run three parallel sessions. For three days, one room.
 
 
 ===============================================================================
@@ -267,10 +252,10 @@ Enjoy the workshop.
 NOTES TO SELF
 ===============================================================================
 
-- Slide 3 is the one that can run away with you, and it is now carrying what
-  used to be two slides. Four barriers, one sentence each, then move. Do not
-  start explaining the sign problem. Let the box land before you deliver the
-  "not one of them" line - it works better after a beat of silence.
+- Slide 3 sets the tone for the whole three days. Say each community's line
+  with the same weight - the lattice people are not the hosts and the quantum
+  people are not the guests. Let the box land before the "service department"
+  line; it works better after a beat of silence.
 
 - Slide 4 has five clicks in quick succession. Say the area, say the number,
   click. Do not editorialise until all five are up.

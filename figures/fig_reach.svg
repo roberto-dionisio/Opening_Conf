@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-09-29T20:01:54.773711</dc:date>
+    <dc:date>2026-09-29T23:17:05.225981</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -52,7 +52,7 @@ L 413.9136 173.23121
 Q 413.9136 177.189626 418.2102 177.189626 
 L 418.2102 177.189626 
 z
-" clip-path="url(#pa0782f33d6)" style="fill: none; stroke-dasharray: 6.5,5.2; stroke-dashoffset: 0; stroke: #55696f; stroke-width: 1.3; stroke-linejoin: miter"/>
+" clip-path="url(#p71b32073ba)" style="fill: none; stroke-dasharray: 6.5,5.2; stroke-dashoffset: 0; stroke: #55696f; stroke-width: 1.3; stroke-linejoin: miter"/>
    </g>
    <g id="patch_4">
     <path d="M 14.9436 177.189626 
@@ -65,7 +65,7 @@ Q 10.647 34.68665 10.647 38.645066
 L 10.647 173.23121 
 Q 10.647 177.189626 14.9436 177.189626 
 z
-" clip-path="url(#pa0782f33d6)" style="fill: #23373b"/>
+" clip-path="url(#p71b32073ba)" style="fill: #23373b"/>
    </g>
    <g id="patch_5">
     <path d="M 185.58 186.237434 
@@ -73,7 +73,7 @@ L 395.4996 186.237434
 L 395.4996 25.638842 
 L 185.58 25.638842 
 z
-" clip-path="url(#pa0782f33d6)" style="fill: #e8dbdd; stroke: #9c162a; stroke-width: 1.8; stroke-linejoin: miter"/>
+" clip-path="url(#p71b32073ba)" style="fill: #e8dbdd; stroke: #9c162a; stroke-width: 1.8; stroke-linejoin: miter"/>
    </g>
    <g id="patch_6">
     <path d="M 401.6376 52.499522 
@@ -1493,7 +1493,7 @@ z
    <g id="line2d_1">
     <path d="M 192.9456 70.312394 
 L 388.134 70.312394 
-" clip-path="url(#pa0782f33d6)" style="fill: none; stroke: #d4a7ad; stroke-width: 0.9; stroke-linecap: round"/>
+" clip-path="url(#p71b32073ba)" style="fill: none; stroke: #d4a7ad; stroke-width: 0.9; stroke-linecap: round"/>
    </g>
    <g id="text_8">
     <!-- the sign problem -->
@@ -1557,7 +1557,7 @@ z
    <g id="line2d_2">
     <path d="M 192.9456 105.938138 
 L 388.134 105.938138 
-" clip-path="url(#pa0782f33d6)" style="fill: none; stroke: #d4a7ad; stroke-width: 0.9; stroke-linecap: round"/>
+" clip-path="url(#p71b32073ba)" style="fill: none; stroke: #d4a7ad; stroke-width: 0.9; stroke-linecap: round"/>
    </g>
    <g id="text_10">
     <!-- analytic continuation -->
@@ -1620,7 +1620,7 @@ z
    <g id="line2d_3">
     <path d="M 192.9456 141.563882 
 L 388.134 141.563882 
-" clip-path="url(#pa0782f33d6)" style="fill: none; stroke: #d4a7ad; stroke-width: 0.9; stroke-linecap: round"/>
+" clip-path="url(#p71b32073ba)" style="fill: none; stroke: #d4a7ad; stroke-width: 0.9; stroke-linecap: round"/>
    </g>
    <g id="text_12">
     <!-- exponential Hilbert space -->
@@ -1853,7 +1853,7 @@ Q 10.647 225.256106 10.647 227.518058
 L 10.647 234.303914 
 Q 10.647 236.565866 13.1022 236.565866 
 z
-" clip-path="url(#pa0782f33d6)" style="fill: #eb811b"/>
+" clip-path="url(#p71b32073ba)" style="fill: #eb811b"/>
    </g>
    <g id="text_15">
     <!-- generative models -->
@@ -1922,7 +1922,7 @@ Q 228.546 225.256106 228.546 227.518058
 L 228.546 234.303914 
 Q 228.546 236.565866 231.0012 236.565866 
 z
-" clip-path="url(#pa0782f33d6)" style="fill: #3b7ea1"/>
+" clip-path="url(#p71b32073ba)" style="fill: #3b7ea1"/>
    </g>
    <g id="text_16">
     <!-- tensor networks -->
@@ -1990,7 +1990,7 @@ Q 428.031 225.256106 428.031 227.518058
 L 428.031 234.303914 
 Q 428.031 236.565866 430.4862 236.565866 
 z
-" clip-path="url(#pa0782f33d6)" style="fill: #3b7ea1"/>
+" clip-path="url(#p71b32073ba)" style="fill: #3b7ea1"/>
    </g>
    <g id="text_17">
     <!-- quantum hardware -->
@@ -2016,7 +2016,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="pa0782f33d6">
+  <clipPath id="p71b32073ba">
    <rect x="1.44" y="1.888346" width="613.8" height="254.4696"/>
   </clipPath>
  </defs>

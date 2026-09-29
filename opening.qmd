@@ -77,18 +77,18 @@ Three days, [**eighteen talks**]{.defect}, [**nine invited speakers**]{.easy}, a
 long discussion with no talks at all.
 :::
 
-## Where we are, and what stops us
+## Three communities, one set of questions
 
 ::: {.note style="text-align:center; margin-top:-0.5em; font-size:0.85em"}
-A precision science, which is exactly why we can see where it stops.
+None of us is going to get there alone.
 :::
 
-![](figures/fig_reach.svg){.reach-fig}
+![](figures/fig_converge.svg){.reach-fig}
 
-::: {.fragment style="margin-top:0.3em"}
-::: {.eqbox style="display:block; text-align:center; font-size:0.8em"}
-Not one of these four belongs to a single community, <br>
-and that is the entire premise of this meeting.
+::: {.fragment style="margin-top:0.5em"}
+::: {.eqbox style="display:block; text-align:center; font-size:0.82em"}
+Three sets of tools, one set of questions, <br>
+and for three days, one room.
 :::
 :::
 

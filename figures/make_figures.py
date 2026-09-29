@@ -287,6 +287,76 @@ def fig_programme():
 
 
 # =============================================================================
+# fig_converge -- three communities, all pointed at the same physics
+# =============================================================================
+# Deliberately NOT the "lattice, and the methods helping it" framing of
+# fig_reach: that one put machine learning and quantum simulation at the bottom
+# of the picture as instruments, which reads badly to half the room. Here the
+# three sit side by side as peers, each bringing something the others do not
+# have, and the arrows converge rather than attack.
+
+COMMUNITIES = [
+    ("Lattice field theory", "four decades of\nnon-perturbative precision", "#23373B"),
+    ("Machine learning", "new ways to sample, and to\nrepresent what we sample", "#EB811B"),
+    ("Quantum simulation", "real time, finite density,\nquantum many-body states", "#3B7EA1"),
+]
+
+
+def fig_converge():
+    fig, ax = plt.subplots(figsize=(11.0, 4.05))
+    ax.set_xlim(0, 10)
+    ax.set_ylim(0.78, 4.68)
+    ax.axis("off")
+
+    bw, by, bh = 3.02, 3.02, 1.32          # pillar geometry
+    gap = (10 - 3 * bw - 0.6) / 2
+    bus_y = 2.55                            # the line all three feed into
+    cy, ch, cw = 1.10, 0.95, 5.6            # the shared object
+
+    centres = []
+    for i, (name, brings, color) in enumerate(COMMUNITIES):
+        x = 0.30 + i * (bw + gap)
+        xc = x + bw / 2
+        centres.append(xc)
+        ax.add_patch(mpatches.FancyBboxPatch(
+            (x, by), bw, bh, boxstyle="round,pad=0,rounding_size=0.09",
+            # the theme teal is nearly black, so its 9% tint comes out grey
+            # while orange and blue keep their hue: give it a stronger one
+            facecolor=_tint(color, 0.17 if color == ts.BULK else 0.09),
+            edgecolor=color, linewidth=1.7, zorder=2))
+        ax.text(xc, by + bh * 0.70, name, ha="center", va="center",
+                color=color, fontsize=14.5, zorder=3)
+        ax.text(xc, by + bh * 0.31, brings, ha="center", va="center",
+                color=ts.INK, fontsize=11.5, linespacing=1.45, zorder=3)
+
+        # a short drop in each community's own colour, all the same length, so
+        # no pillar looks further from the centre than the others
+        ax.plot([xc, xc], [by - 0.04, bus_y], color=color, linewidth=2.0,
+                solid_capstyle="round", zorder=2)
+
+    # the three drops join one line, and the line feeds the shared object once
+    ax.plot([centres[0], centres[-1]], [bus_y, bus_y], color=ts.FAINT,
+            linewidth=2.0, solid_capstyle="round", zorder=1)
+    ax.annotate("", xy=(5.0, cy + ch + 0.04), xytext=(5.0, bus_y),
+                arrowprops=dict(arrowstyle="-|>,head_width=0.20,head_length=0.36",
+                                color=ts.MUTED, linewidth=2.0,
+                                shrinkA=0, shrinkB=0), zorder=2)
+
+    # --- the shared object ---------------------------------------------------
+    ax.add_patch(mpatches.FancyBboxPatch(
+        ((10 - cw) / 2, cy), cw, ch,
+        boxstyle="round,pad=0,rounding_size=0.10",
+        facecolor=ts.BULK, edgecolor="none", zorder=3))
+    ax.text(5.0, cy + ch * 0.62, "strongly interacting quantum matter",
+            ha="center", va="center", color="white", fontsize=14.5, zorder=4)
+    ax.text(5.0, cy + ch * 0.25, "the same questions, in three languages",
+            ha="center", va="center", color="#d3dcdd", fontsize=11,
+            style="italic", zorder=4)
+
+    ts.save(fig, "fig_converge")
+
+
+# =============================================================================
 # fig_topics -- the 18 talks by area, as a donut whose wedges sweep in
 # =============================================================================
 # Written as inline SVG (not matplotlib) so each wedge can be a reveal fragment.
@@ -374,6 +444,7 @@ def fig_topics():
 if __name__ == "__main__":
     print("building StaND4LQ opening figures")
     fig_reach()
+    fig_converge()
     fig_programme()
     fig_topics()
     print("done")
