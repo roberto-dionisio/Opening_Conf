@@ -7,19 +7,30 @@ $bulk-color:   #23373b;  // bulk coupling      (theme primary)
 $defect-color: #eb811b;  // defect coupling    (theme secondary)
 $easy-color:   #3b7ea1;  // easy / reference distribution
 $target-color: #9c162a;  // target distribution
-$muted-color:  #8a9aa0;
+
+// CONTRAST, measured against the #f1f1f1 slide background.
+//
+// The deck keeps the metropolis accents exactly as they are: the orange is the
+// workshop's colour and is not up for negotiation on contrast grounds. For the
+// record it measures 2.4:1 as text and the blue 4.0:1, so both are used bold
+// and large, never for small print. The readability work went where it did not
+// cost the palette anything: the muted grey below (was #8a9aa0 at 2.6:1, now
+// 5.1:1) and the type sizes.
+$muted-color:  #55696f;
+$defect-text:  $defect-color;
+$easy-text:    $easy-color;
 
 /*-- scss:rules --*/
 
 // --- one-line asides: present but not competing with the figure ---------------
 .reveal .note {
-  font-size: 0.62em;
+  font-size: 0.72em;
   color: $muted-color;
-  line-height: 1.45;
+  line-height: 1.5;
 }
 
 .reveal .lead {
-  font-size: 0.78em;
+  font-size: 0.82em;
   color: #33474b;
 }
 
@@ -35,8 +46,8 @@ $muted-color:  #8a9aa0;
 
 // --- semantic color, matching the figures -------------------------------------
 .reveal .bulk   { color: $bulk-color; }
-.reveal .defect { color: $defect-color; }
-.reveal .easy   { color: $easy-color; }
+.reveal .defect { color: $defect-text; }
+.reveal .easy   { color: $easy-text; }
 .reveal .target { color: $target-color; }
 
 // --- boxes-and-arrows diagrams (slides 10 and 11) ------------------------------
@@ -182,13 +193,13 @@ $muted-color:  #8a9aa0;
 
 // --- footer / slide number: present, quiet ------------------------------------
 .reveal .footer {
-  font-size: 0.42em;
+  font-size: 0.5em;
   color: $muted-color;
-  opacity: 0.85;
+  opacity: 0.8;
 }
 
 .reveal .slide-number {
-  font-size: 0.5em;
+  font-size: 0.56em;
   color: $muted-color;
   background: transparent;
 }
@@ -229,11 +240,11 @@ $muted-color:  #8a9aa0;
 // built for one or two names and wraps four onto a second line. Same weapon.
 .reveal #title-slide .quarto-title-author {
   text-align: left;
-  padding-right: 1.5em !important;
+  padding-right: 1.15em !important;
 }
 
 .reveal #title-slide .quarto-title-author-name {
-  font-size: 0.6em;
+  font-size: 0.64em;
   white-space: nowrap;
 }
 
@@ -246,7 +257,7 @@ $muted-color:  #8a9aa0;
   content: "University of Pisa · organized by PhD students, supported by INFN Sezione di Pisa";
   display: block;
   flex-basis: 100%;
-  font-size: 0.62em;
+  font-size: 0.66em;
   font-style: italic;
   color: $muted-color;
   margin-top: 0.55em;
@@ -269,13 +280,13 @@ $muted-color:  #8a9aa0;
 }
 
 .reveal .speakers .nm {
-  font-size: 0.76em;
+  font-size: 0.8em;
   font-weight: 500;
   color: $bulk-color;
 }
 
 .reveal .speakers .af {
-  font-size: 0.6em;
+  font-size: 0.66em;
   color: $muted-color;
 }
 
@@ -296,18 +307,25 @@ $muted-color:  #8a9aa0;
 .reveal .numbers .big {
   font-family: "Yanone Kaffeesatz", sans-serif;
   font-size: 3.2em;
-  color: $defect-color;
+  color: $defect-text;
   line-height: 1;
 }
 
 // The zero is the one number we are proud of for a different reason.
 .reveal .numbers .big.zero {
-  color: $easy-color;
+  color: $easy-text;
+}
+
+// The extension colours the title subtitle with the bright secondary, which is
+// a 2.4:1 fill colour doing a text job on the one slide everyone photographs.
+.reveal #title-slide .subtitle,
+.reveal #title-slide .workshop {
+  color: $defect-text;
 }
 
 .reveal .numbers .lbl {
   display: block;
-  font-size: 0.6em;
+  font-size: 0.68em;
   color: $muted-color;
   margin-top: 0.2em;
 }

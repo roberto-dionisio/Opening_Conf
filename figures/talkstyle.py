@@ -45,8 +45,15 @@ TARGET = "#9C162A"  # metropolis alert
 
 # --- supporting neutrals (structure only, never carry meaning) -----------------
 INK = "#33474B"     # body text color of the theme
-MUTED = "#8A9AA0"
-FAINT = "#C9D2D5"
+MUTED = "#55696F"   # was #8A9AA0: only 2.6:1 on the #f1f1f1 slide, and it was
+                    # carrying the smallest labels in every figure
+FAINT = "#C9D2D5"   # structure only -- rules and tracks, never type
+
+# Label text uses the semantic colors as-is: the orange is the workshop's own
+# and stays exactly that value everywhere. These aliases remain so figure code
+# can say "this is text" at the call site.
+DEFECT_TEXT = DEFECT
+EASY_TEXT = EASY
 
 PALETTE = {"bulk": BULK, "defect": DEFECT, "easy": EASY, "target": TARGET}
 

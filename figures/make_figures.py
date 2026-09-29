@@ -44,18 +44,18 @@ def fig_reach():
                                 color=ts.FAINT, linewidth=1.6,
                                 shrinkA=0, shrinkB=0), zorder=1)
     ax.text(0.15, 4.14, "STATE OF THE ART", ha="left", va="bottom",
-            color=ts.BULK, fontsize=11.5, zorder=3)
+            color=ts.BULK, fontsize=13, zorder=3)
     ax.text(9.85, 4.14, "NEW DIRECTIONS", ha="right", va="bottom",
-            color=ts.EASY, fontsize=11.5, zorder=3)
+            color=ts.EASY_TEXT, fontsize=13, zorder=3)
 
     # --- solid ground: the Euclidean, equilibrium, zero-density regime --------
     ax.add_patch(mpatches.FancyBboxPatch(
         (0.15, y0), 4.30, h, boxstyle="round,pad=0,rounding_size=0.07",
         facecolor=ts.BULK, edgecolor="none", zorder=2))
     ax.text(2.30, y0 + h * 0.62, "Euclidean  ·  equilibrium  ·  $\\mu = 0$",
-            ha="center", va="center", color="white", fontsize=13, zorder=3)
+            ha="center", va="center", color="white", fontsize=14, zorder=3)
     ax.text(2.30, y0 + h * 0.25, "precision at the per-mille level",
-            ha="center", va="center", color="#bcc8ca", fontsize=10.5,
+            ha="center", va="center", color="#d3dcdd", fontsize=11.5,
             style="italic", zorder=3)
 
     # --- the wall: taller than the band, so it plainly interrupts it ----------
@@ -63,7 +63,7 @@ def fig_reach():
         (wx0, y0 - 0.18), ww, h + 0.36, facecolor=_tint(ts.TARGET, 0.16),
         edgecolor=ts.TARGET, linewidth=1.4, hatch="////", zorder=2))
     ax.text(wx0 + ww / 2, y0 - 0.34, "the wall", ha="center", va="top",
-            color=ts.TARGET, fontsize=11.5, zorder=3)
+            color=ts.TARGET, fontsize=12.5, zorder=3)
 
     # --- the far side: still out of reach ------------------------------------
     ax.add_patch(mpatches.FancyBboxPatch(
@@ -74,12 +74,14 @@ def fig_reach():
                       ("finite density", 0.50),
                       ("large entanglement", 0.24)]:
         ax.text(7.62, y0 + h * dy, label, ha="center", va="center",
-                color=ts.MUTED, fontsize=11, zorder=3)
+                color=ts.MUTED, fontsize=12.5, zorder=3)
 
     # --- the three routes, each spanning the stretch of ground it buys -------
     # Their left-to-right order is the argument: flows make the reachable region
     # cheaper, tensor networks and neural states reach the wall itself, quantum
     # hardware works on the far side. Same three colors as the programme legend.
+    # arrows keep the bright brand value; their labels take the readable twin
+    TEXT_TWIN = {ts.DEFECT: ts.DEFECT_TEXT, ts.EASY: ts.EASY_TEXT}
     y_arr = y0 - 0.72
     routes = [
         (0.20, 4.40, "generative models\n& normalizing flows", ts.DEFECT),
@@ -92,7 +94,7 @@ def fig_reach():
                                     color=color, linewidth=2.2,
                                     shrinkA=0, shrinkB=0), zorder=4)
         ax.text((xa + xb) / 2, y_arr - 0.20, label, ha="center", va="top",
-                color=color, fontsize=10.5, linespacing=1.35, zorder=4)
+                color=TEXT_TWIN[color], fontsize=12, linespacing=1.35, zorder=4)
 
     ts.save(fig, "fig_reach")
 
@@ -318,9 +320,9 @@ def fig_topics():
         out.append(f'    <rect x="{LEGEND_X}" y="{row_y - 15:.0f}" width="21" '
                    f'height="21" rx="4" fill="{color}"/>')
         out.append(f'    <text x="{LEGEND_X + 36:.0f}" y="{row_y:.0f}" '
-                   f'font-size="24" fill="#33474B">{label}</text>')
+                   f'font-size="26" fill="#33474B">{label}</text>')
         out.append(f'    <text x="{LEGEND_X + 36:.0f}" y="{row_y + 27:.0f}" '
-                   f'font-size="19" fill="#8A9AA0">{n} talks  ·  '
+                   f'font-size="21" fill="{ts.MUTED}">{n} talks  ·  '
                    f'{100.0 * n / total:.0f}%</text>')
         out.append('  </g>')
         angle += span
@@ -329,7 +331,7 @@ def fig_topics():
     out.append(f'  <text x="{CX}" y="{CY - 4:.0f}" text-anchor="middle" '
                f'font-size="62" fill="#23373B">{total}</text>')
     out.append(f'  <text x="{CX}" y="{CY + 30:.0f}" text-anchor="middle" '
-               f'font-size="23" fill="#8A9AA0">talks</text>')
+               f'font-size="25" fill="{ts.MUTED}">talks</text>')
     out.append('</svg>')
     out.append('```')
 

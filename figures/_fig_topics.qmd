@@ -4,34 +4,34 @@
   <g class="fragment draw-line" data-fragment-index="0" style="--len:148.18">
     <path d="M 240.45 88.07 A 150.00 150.00 0 0 1 363.62 159.18" fill="none" stroke="#23373B" stroke-width="58.0" stroke-linecap="butt"/>
     <rect x="500.0" y="80" width="21" height="21" rx="4" fill="#23373B"/>
-    <text x="536" y="95" font-size="24" fill="#33474B">Precision QCD &amp; flavour</text>
-    <text x="536" y="122" font-size="19" fill="#8A9AA0">3 talks  ·  17%</text>
+    <text x="536" y="95" font-size="26" fill="#33474B">Precision QCD &amp; flavour</text>
+    <text x="536" y="122" font-size="21" fill="#55696F">3 talks  ·  17%</text>
   </g>
   <g class="fragment draw-line" data-fragment-index="1" style="--len:148.18">
     <path d="M 368.07 166.89 A 150.00 150.00 0 0 1 368.07 309.11" fill="none" stroke="#55787D" stroke-width="58.0" stroke-linecap="butt"/>
     <rect x="500.0" y="154" width="21" height="21" rx="4" fill="#55787D"/>
-    <text x="536" y="169" font-size="24" fill="#33474B">Topology &amp; finite-<tspan font-style='italic'>T</tspan> QCD</text>
-    <text x="536" y="196" font-size="19" fill="#8A9AA0">3 talks  ·  17%</text>
+    <text x="536" y="169" font-size="26" fill="#33474B">Topology &amp; finite-<tspan font-style='italic'>T</tspan> QCD</text>
+    <text x="536" y="196" font-size="21" fill="#55696F">3 talks  ·  17%</text>
   </g>
   <g class="fragment draw-line" data-fragment-index="2" style="--len:252.90">
     <path d="M 363.62 316.82 A 150.00 150.00 0 0 1 143.03 355.72" fill="none" stroke="#EB811B" stroke-width="58.0" stroke-linecap="butt"/>
     <rect x="500.0" y="228" width="21" height="21" rx="4" fill="#EB811B"/>
-    <text x="536" y="243" font-size="24" fill="#33474B">Generative models &amp; sampling</text>
-    <text x="536" y="270" font-size="19" fill="#8A9AA0">5 talks  ·  28%</text>
+    <text x="536" y="243" font-size="26" fill="#33474B">Generative models &amp; sampling</text>
+    <text x="536" y="270" font-size="21" fill="#55696F">5 talks  ·  28%</text>
   </g>
   <g class="fragment draw-line" data-fragment-index="3" style="--len:200.54">
     <path d="M 136.22 350.00 A 150.00 150.00 0 0 1 103.93 166.89" fill="none" stroke="#3B7EA1" stroke-width="58.0" stroke-linecap="butt"/>
     <rect x="500.0" y="302" width="21" height="21" rx="4" fill="#3B7EA1"/>
-    <text x="536" y="317" font-size="24" fill="#33474B">Quantum simulation of gauge theories</text>
-    <text x="536" y="344" font-size="19" fill="#8A9AA0">4 talks  ·  22%</text>
+    <text x="536" y="317" font-size="26" fill="#33474B">Quantum simulation of gauge theories</text>
+    <text x="536" y="344" font-size="21" fill="#55696F">4 talks  ·  22%</text>
   </g>
   <g class="fragment draw-line" data-fragment-index="4" style="--len:148.18">
     <path d="M 108.38 159.18 A 150.00 150.00 0 0 1 231.55 88.07" fill="none" stroke="#82B3CB" stroke-width="58.0" stroke-linecap="butt"/>
     <rect x="500.0" y="376" width="21" height="21" rx="4" fill="#82B3CB"/>
-    <text x="536" y="391" font-size="24" fill="#33474B">Quantum many-body &amp; control</text>
-    <text x="536" y="418" font-size="19" fill="#8A9AA0">3 talks  ·  17%</text>
+    <text x="536" y="391" font-size="26" fill="#33474B">Quantum many-body &amp; control</text>
+    <text x="536" y="418" font-size="21" fill="#55696F">3 talks  ·  17%</text>
   </g>
   <text x="236.0" y="234" text-anchor="middle" font-size="62" fill="#23373B">18</text>
-  <text x="236.0" y="268" text-anchor="middle" font-size="23" fill="#8A9AA0">talks</text>
+  <text x="236.0" y="268" text-anchor="middle" font-size="25" fill="#55696F">talks</text>
 </svg>
 ```

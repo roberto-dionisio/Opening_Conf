@@ -173,8 +173,7 @@ Eighteen talks over three days.
 :::
 
 ::: {.fragment .note style="text-align:center; margin-top:0.8em"}
-Nine contributed talks from early-career researchers sit alongside them by design,
-not as filler.
+Nine contributed talks from early-career researchers sit alongside them.
 :::
 
 ## A first edition, in numbers {.center}
@@ -199,7 +198,7 @@ Italy · United Kingdom · Switzerland · Denmark · Spain
 :::
 
 ::: {.fragment .note style="text-align:center; margin-top:0.9em"}
-For a first edition, assembled by four PhD students, we are quietly delighted.
+For a first edition, assembled by four PhD students, we are quite happy!
 :::
 
 ## The session with no talks {.center}
