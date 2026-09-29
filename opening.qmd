@@ -282,30 +282,35 @@ straight down Via San Francesco.
 ![](title_stand4lq.png){.sponsor-logos}
 
 ::: {.fragment .lead style="text-align:center; margin-top:2.2em; font-size:0.92em"}
-This workshop is funded by the **University of Pisa** and **INFN, Sezione di Pisa**,
-which is why nobody paid to walk through the door.
+This workshop is funded by the **University of Pisa** and **INFN, Sezione di Pisa**.
 :::
 
-::: {.fragment .note style="text-align:center; margin-top:1.1em"}
-Coffee for three days, and a first edition that did not have to charge for itself.
+::: {.fragment .note style="text-align:center; margin-top:1.1em; font-size:0.85em"}
+Coffee breaks for three days, and a first edition with no fee.
 :::
 
 ## Thank you {.center}
 
-::: {.lead style="text-align:center; margin-top:0.4em; font-size:1.05em"}
-To our [**nine invited speakers**]{style="color:#EB811B"}, for agreeing to come to a
-workshop that did not yet exist.
+::: {.thanks-card .defect-box}
+[9]{.fig}
+
+::: {.txt}
+[invited speakers]{.who}
+[for agreeing to come to a workshop that did not yet exist]{.sub}
+:::
 :::
 
-::: {.fragment .lead style="text-align:center; margin-top:1.5em; font-size:0.92em"}
-To everyone who **submitted an abstract**, and to the nine early-career researchers
-giving contributed talks.
+::: {.fragment .thanks-card .easy-box}
+[9]{.fig}
+
+::: {.txt}
+[contributed talks]{.who}
+[from early-career researchers, standing alongside them by design]{.sub}
+:::
 :::
 
-::: {.fragment style="margin-top:2em; border-left:5px solid #EB811B; background:rgba(235,129,27,0.07); border-radius:6px; padding:0.6em 1.3em"}
-[**One request**]{style="color:#EB811B"} · the people in this room work on Euclidean
-Monte Carlo, on tensor networks, and on quantum hardware. Sit next to someone whose
-methods you do not use.
+::: {.fragment .lead style="text-align:center; margin-top:1.7em; font-size:0.95em"}
+And to all [**31**]{style="color:#EB811B"} of you who registered.
 :::
 
 # Enjoy the workshop! {.center}
