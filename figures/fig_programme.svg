@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
   "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="835.2pt" height="388.8pt" viewBox="0 0 835.2 388.8" xmlns="http://www.w3.org/2000/svg" version="1.1">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="835.2pt" height="468pt" viewBox="0 0 835.2 468" xmlns="http://www.w3.org/2000/svg" version="1.1">
  <metadata>
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-09-29T16:58:37.416734</dc:date>
+    <dc:date>2026-09-29T17:03:44.101721</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -21,132 +21,132 @@
  </defs>
  <g id="figure_1">
   <g id="patch_1">
-   <path d="M 0 388.8 
-L 835.2 388.8 
+   <path d="M 0 468 
+L 835.2 468 
 L 835.2 0 
 L 0 0 
-L 0 388.8 
+L 0 468 
 z
 " style="fill: none"/>
   </g>
   <g id="axes_1">
    <g id="line2d_1">
-    <path d="M 116.033143 48.102336 
-L 826.350857 48.102336 
+    <path d="M 116.033143 57.90096 
+L 826.350857 57.90096 
 " style="fill: none; stroke: #c9d2d5; stroke-width: 0.5; stroke-linecap: round"/>
    </g>
    <g id="line2d_2">
-    <path d="M 116.033143 80.761536 
-L 826.350857 80.761536 
+    <path d="M 116.033143 97.21296 
+L 826.350857 97.21296 
 " style="fill: none; stroke: #c9d2d5; stroke-width: 0.5; stroke-linecap: round"/>
    </g>
    <g id="line2d_3">
-    <path d="M 116.033143 113.420736 
-L 826.350857 113.420736 
+    <path d="M 116.033143 136.52496 
+L 826.350857 136.52496 
 " style="fill: none; stroke: #c9d2d5; stroke-width: 0.5; stroke-linecap: round"/>
    </g>
    <g id="line2d_4">
-    <path d="M 116.033143 146.079936 
-L 826.350857 146.079936 
+    <path d="M 116.033143 175.83696 
+L 826.350857 175.83696 
 " style="fill: none; stroke: #c9d2d5; stroke-width: 0.5; stroke-linecap: round"/>
    </g>
    <g id="line2d_5">
-    <path d="M 116.033143 178.739136 
-L 826.350857 178.739136 
+    <path d="M 116.033143 215.14896 
+L 826.350857 215.14896 
 " style="fill: none; stroke: #c9d2d5; stroke-width: 0.5; stroke-linecap: round"/>
    </g>
    <g id="line2d_6">
-    <path d="M 116.033143 211.398336 
-L 826.350857 211.398336 
+    <path d="M 116.033143 254.46096 
+L 826.350857 254.46096 
 " style="fill: none; stroke: #c9d2d5; stroke-width: 0.5; stroke-linecap: round"/>
    </g>
    <g id="line2d_7">
-    <path d="M 116.033143 244.057536 
-L 826.350857 244.057536 
+    <path d="M 116.033143 293.77296 
+L 826.350857 293.77296 
 " style="fill: none; stroke: #c9d2d5; stroke-width: 0.5; stroke-linecap: round"/>
    </g>
    <g id="line2d_8">
-    <path d="M 116.033143 276.716736 
-L 826.350857 276.716736 
+    <path d="M 116.033143 333.08496 
+L 826.350857 333.08496 
 " style="fill: none; stroke: #c9d2d5; stroke-width: 0.5; stroke-linecap: round"/>
    </g>
    <g id="line2d_9">
-    <path d="M 116.033143 309.375936 
-L 826.350857 309.375936 
+    <path d="M 116.033143 372.39696 
+L 826.350857 372.39696 
 " style="fill: none; stroke: #c9d2d5; stroke-width: 0.5; stroke-linecap: round"/>
    </g>
    <g id="line2d_10">
-    <path d="M 116.033143 342.035136 
-L 826.350857 342.035136 
+    <path d="M 116.033143 411.70896 
+L 826.350857 411.70896 
 " style="fill: none; stroke: #c9d2d5; stroke-width: 0.5; stroke-linecap: round"/>
    </g>
    <g id="patch_2">
-    <path d="M 130.052571 31.772736 
-L 354.363429 31.772736 
-L 354.363429 48.102336 
-L 130.052571 48.102336 
+    <path d="M 130.052571 38.24496 
+L 354.363429 38.24496 
+L 354.363429 57.90096 
+L 130.052571 57.90096 
 z
-" clip-path="url(#pc9c0db42e0)" style="fill: #c9d2d5; opacity: 0.32"/>
+" clip-path="url(#pf21a062822)" style="fill: #c9d2d5; opacity: 0.32"/>
    </g>
    <g id="patch_3">
-    <path d="M 130.052571 99.703872 
-L 354.363429 99.703872 
-L 354.363429 116.033472 
-L 130.052571 116.033472 
+    <path d="M 130.052571 120.01392 
+L 354.363429 120.01392 
+L 354.363429 139.66992 
+L 130.052571 139.66992 
 z
-" clip-path="url(#pc9c0db42e0)" style="fill: #c9d2d5; opacity: 0.32"/>
+" clip-path="url(#pf21a062822)" style="fill: #c9d2d5; opacity: 0.32"/>
    </g>
    <g id="patch_4">
-    <path d="M 130.052571 176.1264 
-L 354.363429 176.1264 
-L 354.363429 235.892736 
-L 130.052571 235.892736 
+    <path d="M 130.052571 212.004 
+L 354.363429 212.004 
+L 354.363429 283.94496 
+L 130.052571 283.94496 
 z
-" clip-path="url(#pc9c0db42e0)" style="fill: #c9d2d5; opacity: 0.32"/>
+" clip-path="url(#pf21a062822)" style="fill: #c9d2d5; opacity: 0.32"/>
    </g>
    <g id="patch_5">
-    <path d="M 130.052571 295.659072 
-L 354.363429 295.659072 
-L 354.363429 311.988672 
-L 130.052571 311.988672 
+    <path d="M 130.052571 355.88592 
+L 354.363429 355.88592 
+L 354.363429 375.54192 
+L 130.052571 375.54192 
 z
-" clip-path="url(#pc9c0db42e0)" style="fill: #c9d2d5; opacity: 0.32"/>
+" clip-path="url(#pf21a062822)" style="fill: #c9d2d5; opacity: 0.32"/>
    </g>
    <g id="patch_6">
-    <path d="M 363.709714 91.539072 
-L 588.020571 91.539072 
-L 588.020571 107.868672 
-L 363.709714 107.868672 
+    <path d="M 363.709714 110.18592 
+L 588.020571 110.18592 
+L 588.020571 129.84192 
+L 363.709714 129.84192 
 z
-" clip-path="url(#pc9c0db42e0)" style="fill: #c9d2d5; opacity: 0.32"/>
+" clip-path="url(#pf21a062822)" style="fill: #c9d2d5; opacity: 0.32"/>
    </g>
    <g id="patch_7">
-    <path d="M 363.709714 195.068736 
-L 588.020571 195.068736 
-L 588.020571 244.057536 
-L 363.709714 244.057536 
+    <path d="M 363.709714 234.80496 
+L 588.020571 234.80496 
+L 588.020571 293.77296 
+L 363.709714 293.77296 
 z
-" clip-path="url(#pc9c0db42e0)" style="fill: #c9d2d5; opacity: 0.32"/>
+" clip-path="url(#pf21a062822)" style="fill: #c9d2d5; opacity: 0.32"/>
    </g>
    <g id="patch_8">
-    <path d="M 363.709714 298.5984 
-L 588.020571 298.5984 
-L 588.020571 317.540736 
-L 363.709714 317.540736 
+    <path d="M 363.709714 359.424 
+L 588.020571 359.424 
+L 588.020571 382.22496 
+L 363.709714 382.22496 
 z
-" clip-path="url(#pc9c0db42e0)" style="fill: #c9d2d5; opacity: 0.32"/>
+" clip-path="url(#pf21a062822)" style="fill: #c9d2d5; opacity: 0.32"/>
    </g>
    <g id="patch_9">
-    <path d="M 597.366857 107.868672 
-L 821.677714 107.868672 
-L 821.677714 124.198272 
-L 597.366857 124.198272 
+    <path d="M 597.366857 129.84192 
+L 821.677714 129.84192 
+L 821.677714 149.49792 
+L 597.366857 149.49792 
 z
-" clip-path="url(#pc9c0db42e0)" style="fill: #c9d2d5; opacity: 0.32"/>
+" clip-path="url(#pf21a062822)" style="fill: #c9d2d5; opacity: 0.32"/>
    </g>
    <g id="text_1">
     <!-- Registration -->
-    <g style="fill: #8a9aa0" transform="translate(218.003625 42.403395) scale(0.09 -0.09)">
+    <g style="fill: #8a9aa0" transform="translate(216.39 50.70321) scale(0.096 -0.096)">
      <defs>
       <path id="FiraSans-Light-52" d="M 1971 1965 
 L 1094 1965 
@@ -417,47 +417,47 @@ z
     </g>
    </g>
    <g id="patch_10">
-    <path d="M 138.230571 48.75552 
-L 346.185429 48.75552 
-Q 350.858571 48.75552 350.858571 49.408704 
-L 350.858571 54.960768 
-Q 350.858571 55.613952 346.185429 55.613952 
-L 138.230571 55.613952 
-Q 133.557429 55.613952 133.557429 54.960768 
-L 133.557429 49.408704 
-Q 133.557429 48.75552 138.230571 48.75552 
+    <path d="M 138.230571 58.6872 
+L 346.185429 58.6872 
+Q 350.858571 58.6872 350.858571 59.47344 
+L 350.858571 66.15648 
+Q 350.858571 66.94272 346.185429 66.94272 
+L 138.230571 66.94272 
+Q 133.557429 66.94272 133.557429 66.15648 
+L 133.557429 59.47344 
+Q 133.557429 58.6872 138.230571 58.6872 
 z
-" clip-path="url(#pc9c0db42e0)" style="fill: #dcdedf; stroke: #949d9f; stroke-linejoin: miter"/>
+" clip-path="url(#pf21a062822)" style="fill: #dcdedf; stroke: #949d9f; stroke-linejoin: miter"/>
    </g>
    <g id="patch_11">
-    <path d="M 138.230571 57.246912 
-L 346.185429 57.246912 
-Q 350.858571 57.246912 350.858571 57.900096 
-L 350.858571 81.741312 
-Q 350.858571 82.394496 346.185429 82.394496 
-L 138.230571 82.394496 
-Q 133.557429 82.394496 133.557429 81.741312 
-L 133.557429 57.900096 
-Q 133.557429 57.246912 138.230571 57.246912 
+    <path d="M 138.230571 68.90832 
+L 346.185429 68.90832 
+Q 350.858571 68.90832 350.858571 69.69456 
+L 350.858571 98.39232 
+Q 350.858571 99.17856 346.185429 99.17856 
+L 138.230571 99.17856 
+Q 133.557429 99.17856 133.557429 98.39232 
+L 133.557429 69.69456 
+Q 133.557429 68.90832 138.230571 68.90832 
 z
-" clip-path="url(#pc9c0db42e0)" style="fill: #23373b"/>
+" clip-path="url(#pf21a062822)" style="fill: #23373b"/>
    </g>
    <g id="patch_12">
-    <path d="M 138.230571 84.354048 
-L 346.185429 84.354048 
-Q 350.858571 84.354048 350.858571 85.007232 
-L 350.858571 98.070912 
-Q 350.858571 98.724096 346.185429 98.724096 
-L 138.230571 98.724096 
-Q 133.557429 98.724096 133.557429 98.070912 
-L 133.557429 85.007232 
-Q 133.557429 84.354048 138.230571 84.354048 
+    <path d="M 138.230571 101.53728 
+L 346.185429 101.53728 
+Q 350.858571 101.53728 350.858571 102.32352 
+L 350.858571 118.04832 
+Q 350.858571 118.83456 346.185429 118.83456 
+L 138.230571 118.83456 
+Q 133.557429 118.83456 133.557429 118.04832 
+L 133.557429 102.32352 
+Q 133.557429 101.53728 138.230571 101.53728 
 z
-" clip-path="url(#pc9c0db42e0)" style="fill: #b7bdbe; stroke: #758184; stroke-linejoin: miter"/>
+" clip-path="url(#pf21a062822)" style="fill: #b7bdbe; stroke: #758184; stroke-linejoin: miter"/>
    </g>
    <g id="text_2">
     <!-- Coffee -->
-    <g style="fill: #8a9aa0" transform="translate(229.451906 110.289531) scale(0.09 -0.09)">
+    <g style="fill: #8a9aa0" transform="translate(228.6015 132.42417) scale(0.096 -0.096)">
      <defs>
       <path id="FiraSans-Light-43" d="M 2195 4454 
 Q 2560 4454 2813 4355 
@@ -513,47 +513,47 @@ z
     </g>
    </g>
    <g id="patch_13">
-    <path d="M 138.230571 117.013248 
-L 346.185429 117.013248 
-Q 350.858571 117.013248 350.858571 117.666432 
-L 350.858571 141.83424 
-Q 350.858571 142.487424 346.185429 142.487424 
-L 138.230571 142.487424 
-Q 133.557429 142.487424 133.557429 141.83424 
-L 133.557429 117.666432 
-Q 133.557429 117.013248 138.230571 117.013248 
+    <path d="M 138.230571 140.84928 
+L 346.185429 140.84928 
+Q 350.858571 140.84928 350.858571 141.63552 
+L 350.858571 170.7264 
+Q 350.858571 171.51264 346.185429 171.51264 
+L 138.230571 171.51264 
+Q 133.557429 171.51264 133.557429 170.7264 
+L 133.557429 141.63552 
+Q 133.557429 140.84928 138.230571 140.84928 
 z
-" clip-path="url(#pc9c0db42e0)" style="fill: #23373b"/>
+" clip-path="url(#pf21a062822)" style="fill: #23373b"/>
    </g>
    <g id="patch_14">
-    <path d="M 138.230571 144.446976 
-L 346.185429 144.446976 
-Q 350.858571 144.446976 350.858571 145.10016 
-L 350.858571 158.16384 
-Q 350.858571 158.817024 346.185429 158.817024 
-L 138.230571 158.817024 
-Q 133.557429 158.817024 133.557429 158.16384 
-L 133.557429 145.10016 
-Q 133.557429 144.446976 138.230571 144.446976 
+    <path d="M 138.230571 173.87136 
+L 346.185429 173.87136 
+Q 350.858571 173.87136 350.858571 174.6576 
+L 350.858571 190.3824 
+Q 350.858571 191.16864 346.185429 191.16864 
+L 138.230571 191.16864 
+Q 133.557429 191.16864 133.557429 190.3824 
+L 133.557429 174.6576 
+Q 133.557429 173.87136 138.230571 173.87136 
 z
-" clip-path="url(#pc9c0db42e0)" style="fill: #b7bdbe; stroke: #758184; stroke-linejoin: miter"/>
+" clip-path="url(#pf21a062822)" style="fill: #b7bdbe; stroke: #758184; stroke-linejoin: miter"/>
    </g>
    <g id="patch_15">
-    <path d="M 138.230571 160.776576 
-L 346.185429 160.776576 
-Q 350.858571 160.776576 350.858571 161.42976 
-L 350.858571 174.49344 
-Q 350.858571 175.146624 346.185429 175.146624 
-L 138.230571 175.146624 
-Q 133.557429 175.146624 133.557429 174.49344 
-L 133.557429 161.42976 
-Q 133.557429 160.776576 138.230571 160.776576 
+    <path d="M 138.230571 193.52736 
+L 346.185429 193.52736 
+Q 350.858571 193.52736 350.858571 194.3136 
+L 350.858571 210.0384 
+Q 350.858571 210.82464 346.185429 210.82464 
+L 138.230571 210.82464 
+Q 133.557429 210.82464 133.557429 210.0384 
+L 133.557429 194.3136 
+Q 133.557429 193.52736 138.230571 193.52736 
 z
-" clip-path="url(#pc9c0db42e0)" style="fill: #b7bdbe; stroke: #758184; stroke-linejoin: miter"/>
+" clip-path="url(#pf21a062822)" style="fill: #b7bdbe; stroke: #758184; stroke-linejoin: miter"/>
    </g>
    <g id="text_3">
     <!-- Lunch -->
-    <g style="fill: #8a9aa0" transform="translate(230.088234 208.430427) scale(0.09 -0.09)">
+    <g style="fill: #8a9aa0" transform="translate(229.28025 250.55673) scale(0.096 -0.096)">
      <defs>
       <path id="FiraSans-Light-4c" d="M 1094 4384 
 L 1094 346 
@@ -629,47 +629,47 @@ z
     </g>
    </g>
    <g id="patch_16">
-    <path d="M 138.230571 236.872512 
-L 346.185429 236.872512 
-Q 350.858571 236.872512 350.858571 237.525696 
-L 350.858571 261.366912 
-Q 350.858571 262.020096 346.185429 262.020096 
-L 138.230571 262.020096 
-Q 133.557429 262.020096 133.557429 261.366912 
-L 133.557429 237.525696 
-Q 133.557429 236.872512 138.230571 236.872512 
+    <path d="M 138.230571 285.12432 
+L 346.185429 285.12432 
+Q 350.858571 285.12432 350.858571 285.91056 
+L 350.858571 314.60832 
+Q 350.858571 315.39456 346.185429 315.39456 
+L 138.230571 315.39456 
+Q 133.557429 315.39456 133.557429 314.60832 
+L 133.557429 285.91056 
+Q 133.557429 285.12432 138.230571 285.12432 
 z
-" clip-path="url(#pc9c0db42e0)" style="fill: #eb811b"/>
+" clip-path="url(#pf21a062822)" style="fill: #eb811b"/>
    </g>
    <g id="patch_17">
-    <path d="M 138.230571 263.979648 
-L 346.185429 263.979648 
-Q 350.858571 263.979648 350.858571 264.632832 
-L 350.858571 277.696512 
-Q 350.858571 278.349696 346.185429 278.349696 
-L 138.230571 278.349696 
-Q 133.557429 278.349696 133.557429 277.696512 
-L 133.557429 264.632832 
-Q 133.557429 263.979648 138.230571 263.979648 
+    <path d="M 138.230571 317.75328 
+L 346.185429 317.75328 
+Q 350.858571 317.75328 350.858571 318.53952 
+L 350.858571 334.26432 
+Q 350.858571 335.05056 346.185429 335.05056 
+L 138.230571 335.05056 
+Q 133.557429 335.05056 133.557429 334.26432 
+L 133.557429 318.53952 
+Q 133.557429 317.75328 138.230571 317.75328 
 z
-" clip-path="url(#pc9c0db42e0)" style="fill: #efd2b5; stroke: #edae71; stroke-linejoin: miter"/>
+" clip-path="url(#pf21a062822)" style="fill: #efd2b5; stroke: #edae71; stroke-linejoin: miter"/>
    </g>
    <g id="patch_18">
-    <path d="M 138.230571 280.309248 
-L 346.185429 280.309248 
-Q 350.858571 280.309248 350.858571 280.962432 
-L 350.858571 294.026112 
-Q 350.858571 294.679296 346.185429 294.679296 
-L 138.230571 294.679296 
-Q 133.557429 294.679296 133.557429 294.026112 
-L 133.557429 280.962432 
-Q 133.557429 280.309248 138.230571 280.309248 
+    <path d="M 138.230571 337.40928 
+L 346.185429 337.40928 
+Q 350.858571 337.40928 350.858571 338.19552 
+L 350.858571 353.92032 
+Q 350.858571 354.70656 346.185429 354.70656 
+L 138.230571 354.70656 
+Q 133.557429 354.70656 133.557429 353.92032 
+L 133.557429 338.19552 
+Q 133.557429 337.40928 138.230571 337.40928 
 z
-" clip-path="url(#pc9c0db42e0)" style="fill: #efd2b5; stroke: #edae71; stroke-linejoin: miter"/>
+" clip-path="url(#pf21a062822)" style="fill: #efd2b5; stroke: #edae71; stroke-linejoin: miter"/>
    </g>
    <g id="text_4">
     <!-- Coffee -->
-    <g style="fill: #8a9aa0" transform="translate(229.451906 306.244731) scale(0.09 -0.09)">
+    <g style="fill: #8a9aa0" transform="translate(228.6015 368.29617) scale(0.096 -0.096)">
      <use xlink:href="#FiraSans-Light-43"/>
      <use xlink:href="#FiraSans-Light-6f" transform="translate(54.999985 0)"/>
      <use xlink:href="#FiraSans-Light-66" transform="translate(112.099976 0)"/>
@@ -679,34 +679,34 @@ z
     </g>
    </g>
    <g id="patch_19">
-    <path d="M 371.887714 49.082112 
-L 579.842571 49.082112 
-Q 584.515714 49.082112 584.515714 49.735296 
-L 584.515714 73.576512 
-Q 584.515714 74.229696 579.842571 74.229696 
-L 371.887714 74.229696 
-Q 367.214571 74.229696 367.214571 73.576512 
-L 367.214571 49.735296 
-Q 367.214571 49.082112 371.887714 49.082112 
+    <path d="M 371.887714 59.08032 
+L 579.842571 59.08032 
+Q 584.515714 59.08032 584.515714 59.86656 
+L 584.515714 88.56432 
+Q 584.515714 89.35056 579.842571 89.35056 
+L 371.887714 89.35056 
+Q 367.214571 89.35056 367.214571 88.56432 
+L 367.214571 59.86656 
+Q 367.214571 59.08032 371.887714 59.08032 
 z
-" clip-path="url(#pc9c0db42e0)" style="fill: #eb811b"/>
+" clip-path="url(#pf21a062822)" style="fill: #eb811b"/>
    </g>
    <g id="patch_20">
-    <path d="M 371.887714 76.189248 
-L 579.842571 76.189248 
-Q 584.515714 76.189248 584.515714 76.842432 
-L 584.515714 89.906112 
-Q 584.515714 90.559296 579.842571 90.559296 
-L 371.887714 90.559296 
-Q 367.214571 90.559296 367.214571 89.906112 
-L 367.214571 76.842432 
-Q 367.214571 76.189248 371.887714 76.189248 
+    <path d="M 371.887714 91.70928 
+L 579.842571 91.70928 
+Q 584.515714 91.70928 584.515714 92.49552 
+L 584.515714 108.22032 
+Q 584.515714 109.00656 579.842571 109.00656 
+L 371.887714 109.00656 
+Q 367.214571 109.00656 367.214571 108.22032 
+L 367.214571 92.49552 
+Q 367.214571 91.70928 371.887714 91.70928 
 z
-" clip-path="url(#pc9c0db42e0)" style="fill: #efd2b5; stroke: #edae71; stroke-linejoin: miter"/>
+" clip-path="url(#pf21a062822)" style="fill: #efd2b5; stroke: #edae71; stroke-linejoin: miter"/>
    </g>
    <g id="text_5">
     <!-- Coffee -->
-    <g style="fill: #8a9aa0" transform="translate(463.109049 102.124731) scale(0.09 -0.09)">
+    <g style="fill: #8a9aa0" transform="translate(462.258643 122.59617) scale(0.096 -0.096)">
      <use xlink:href="#FiraSans-Light-43"/>
      <use xlink:href="#FiraSans-Light-6f" transform="translate(54.999985 0)"/>
      <use xlink:href="#FiraSans-Light-66" transform="translate(112.099976 0)"/>
@@ -716,47 +716,47 @@ z
     </g>
    </g>
    <g id="patch_21">
-    <path d="M 371.887714 108.848448 
-L 579.842571 108.848448 
-Q 584.515714 108.848448 584.515714 109.501632 
-L 584.515714 122.565312 
-Q 584.515714 123.218496 579.842571 123.218496 
-L 371.887714 123.218496 
-Q 367.214571 123.218496 367.214571 122.565312 
-L 367.214571 109.501632 
-Q 367.214571 108.848448 371.887714 108.848448 
+    <path d="M 371.887714 131.02128 
+L 579.842571 131.02128 
+Q 584.515714 131.02128 584.515714 131.80752 
+L 584.515714 147.53232 
+Q 584.515714 148.31856 579.842571 148.31856 
+L 371.887714 148.31856 
+Q 367.214571 148.31856 367.214571 147.53232 
+L 367.214571 131.80752 
+Q 367.214571 131.02128 371.887714 131.02128 
 z
-" clip-path="url(#pc9c0db42e0)" style="fill: #b7bdbe; stroke: #758184; stroke-linejoin: miter"/>
+" clip-path="url(#pf21a062822)" style="fill: #b7bdbe; stroke: #758184; stroke-linejoin: miter"/>
    </g>
    <g id="patch_22">
-    <path d="M 371.887714 125.178048 
-L 579.842571 125.178048 
-Q 584.515714 125.178048 584.515714 125.831232 
-L 584.515714 149.99904 
-Q 584.515714 150.652224 579.842571 150.652224 
-L 371.887714 150.652224 
-Q 367.214571 150.652224 367.214571 149.99904 
-L 367.214571 125.831232 
-Q 367.214571 125.178048 371.887714 125.178048 
+    <path d="M 371.887714 150.67728 
+L 579.842571 150.67728 
+Q 584.515714 150.67728 584.515714 151.46352 
+L 584.515714 180.5544 
+Q 584.515714 181.34064 579.842571 181.34064 
+L 371.887714 181.34064 
+Q 367.214571 181.34064 367.214571 180.5544 
+L 367.214571 151.46352 
+Q 367.214571 150.67728 371.887714 150.67728 
 z
-" clip-path="url(#pc9c0db42e0)" style="fill: #3b7ea1"/>
+" clip-path="url(#pf21a062822)" style="fill: #3b7ea1"/>
    </g>
    <g id="patch_23">
-    <path d="M 371.887714 152.285184 
-L 579.842571 152.285184 
-Q 584.515714 152.285184 584.515714 152.938368 
-L 584.515714 193.762368 
-Q 584.515714 194.415552 579.842571 194.415552 
-L 371.887714 194.415552 
-Q 367.214571 194.415552 367.214571 193.762368 
-L 367.214571 152.938368 
-Q 367.214571 152.285184 371.887714 152.285184 
+    <path d="M 371.887714 183.30624 
+L 579.842571 183.30624 
+Q 584.515714 183.30624 584.515714 184.09248 
+L 584.515714 233.23248 
+Q 584.515714 234.01872 579.842571 234.01872 
+L 371.887714 234.01872 
+Q 367.214571 234.01872 367.214571 233.23248 
+L 367.214571 184.09248 
+Q 367.214571 183.30624 371.887714 183.30624 
 z
-" clip-path="url(#pc9c0db42e0)" style="fill: #ffffff; stroke-dasharray: 5.2,3.9; stroke-dashoffset: 0; stroke: #23373b; stroke-width: 1.3; stroke-linejoin: miter"/>
+" clip-path="url(#pf21a062822)" style="fill: #ffffff; stroke-dasharray: 5.2,3.9; stroke-dashoffset: 0; stroke: #23373b; stroke-width: 1.3; stroke-linejoin: miter"/>
    </g>
    <g id="text_6">
     <!-- Lunch -->
-    <g style="fill: #8a9aa0" transform="translate(463.745377 221.983995) scale(0.09 -0.09)">
+    <g style="fill: #8a9aa0" transform="translate(462.937393 266.87121) scale(0.096 -0.096)">
      <use xlink:href="#FiraSans-Light-4c"/>
      <use xlink:href="#FiraSans-Light-75" transform="translate(47.699997 0)"/>
      <use xlink:href="#FiraSans-Light-6e" transform="translate(105.599991 0)"/>
@@ -765,34 +765,34 @@ z
     </g>
    </g>
    <g id="patch_24">
-    <path d="M 371.887714 245.037312 
-L 579.842571 245.037312 
-Q 584.515714 245.037312 584.515714 245.690496 
-L 584.515714 269.531712 
-Q 584.515714 270.184896 579.842571 270.184896 
-L 371.887714 270.184896 
-Q 367.214571 270.184896 367.214571 269.531712 
-L 367.214571 245.690496 
-Q 367.214571 245.037312 371.887714 245.037312 
+    <path d="M 371.887714 294.95232 
+L 579.842571 294.95232 
+Q 584.515714 294.95232 584.515714 295.73856 
+L 584.515714 324.43632 
+Q 584.515714 325.22256 579.842571 325.22256 
+L 371.887714 325.22256 
+Q 367.214571 325.22256 367.214571 324.43632 
+L 367.214571 295.73856 
+Q 367.214571 294.95232 371.887714 294.95232 
 z
-" clip-path="url(#pc9c0db42e0)" style="fill: #3b7ea1"/>
+" clip-path="url(#pf21a062822)" style="fill: #3b7ea1"/>
    </g>
    <g id="patch_25">
-    <path d="M 371.887714 272.144448 
-L 579.842571 272.144448 
-Q 584.515714 272.144448 584.515714 272.797632 
-L 584.515714 296.96544 
-Q 584.515714 297.618624 579.842571 297.618624 
-L 371.887714 297.618624 
-Q 367.214571 297.618624 367.214571 296.96544 
-L 367.214571 272.797632 
-Q 367.214571 272.144448 371.887714 272.144448 
+    <path d="M 371.887714 327.58128 
+L 579.842571 327.58128 
+Q 584.515714 327.58128 584.515714 328.36752 
+L 584.515714 357.4584 
+Q 584.515714 358.24464 579.842571 358.24464 
+L 371.887714 358.24464 
+Q 367.214571 358.24464 367.214571 357.4584 
+L 367.214571 328.36752 
+Q 367.214571 327.58128 371.887714 327.58128 
 z
-" clip-path="url(#pc9c0db42e0)" style="fill: #3b7ea1"/>
+" clip-path="url(#pf21a062822)" style="fill: #3b7ea1"/>
    </g>
    <g id="text_7">
     <!-- Coffee -->
-    <g style="fill: #8a9aa0" transform="translate(463.109049 310.490427) scale(0.09 -0.09)">
+    <g style="fill: #8a9aa0" transform="translate(462.258643 373.40673) scale(0.096 -0.096)">
      <use xlink:href="#FiraSans-Light-43"/>
      <use xlink:href="#FiraSans-Light-6f" transform="translate(54.999985 0)"/>
      <use xlink:href="#FiraSans-Light-66" transform="translate(112.099976 0)"/>
@@ -802,60 +802,60 @@ z
     </g>
    </g>
    <g id="patch_26">
-    <path d="M 371.887714 318.520512 
-L 579.842571 318.520512 
-Q 584.515714 318.520512 584.515714 319.173696 
-L 584.515714 343.014912 
-Q 584.515714 343.668096 579.842571 343.668096 
-L 371.887714 343.668096 
-Q 367.214571 343.668096 367.214571 343.014912 
-L 367.214571 319.173696 
-Q 367.214571 318.520512 371.887714 318.520512 
+    <path d="M 371.887714 383.40432 
+L 579.842571 383.40432 
+Q 584.515714 383.40432 584.515714 384.19056 
+L 584.515714 412.88832 
+Q 584.515714 413.67456 579.842571 413.67456 
+L 371.887714 413.67456 
+Q 367.214571 413.67456 367.214571 412.88832 
+L 367.214571 384.19056 
+Q 367.214571 383.40432 371.887714 383.40432 
 z
-" clip-path="url(#pc9c0db42e0)" style="fill: #3b7ea1"/>
+" clip-path="url(#pf21a062822)" style="fill: #3b7ea1"/>
    </g>
    <g id="patch_27">
-    <path d="M 605.544857 49.082112 
-L 813.499714 49.082112 
-Q 818.172857 49.082112 818.172857 49.735296 
-L 818.172857 73.576512 
-Q 818.172857 74.229696 813.499714 74.229696 
-L 605.544857 74.229696 
-Q 600.871714 74.229696 600.871714 73.576512 
-L 600.871714 49.735296 
-Q 600.871714 49.082112 605.544857 49.082112 
+    <path d="M 605.544857 59.08032 
+L 813.499714 59.08032 
+Q 818.172857 59.08032 818.172857 59.86656 
+L 818.172857 88.56432 
+Q 818.172857 89.35056 813.499714 89.35056 
+L 605.544857 89.35056 
+Q 600.871714 89.35056 600.871714 88.56432 
+L 600.871714 59.86656 
+Q 600.871714 59.08032 605.544857 59.08032 
 z
-" clip-path="url(#pc9c0db42e0)" style="fill: #3b7ea1"/>
+" clip-path="url(#pf21a062822)" style="fill: #3b7ea1"/>
    </g>
    <g id="patch_28">
-    <path d="M 605.544857 76.189248 
-L 813.499714 76.189248 
-Q 818.172857 76.189248 818.172857 76.842432 
-L 818.172857 89.906112 
-Q 818.172857 90.559296 813.499714 90.559296 
-L 605.544857 90.559296 
-Q 600.871714 90.559296 600.871714 89.906112 
-L 600.871714 76.842432 
-Q 600.871714 76.189248 605.544857 76.189248 
+    <path d="M 605.544857 91.70928 
+L 813.499714 91.70928 
+Q 818.172857 91.70928 818.172857 92.49552 
+L 818.172857 108.22032 
+Q 818.172857 109.00656 813.499714 109.00656 
+L 605.544857 109.00656 
+Q 600.871714 109.00656 600.871714 108.22032 
+L 600.871714 92.49552 
+Q 600.871714 91.70928 605.544857 91.70928 
 z
-" clip-path="url(#pc9c0db42e0)" style="fill: #bed1db; stroke: #84acc1; stroke-linejoin: miter"/>
+" clip-path="url(#pf21a062822)" style="fill: #bed1db; stroke: #84acc1; stroke-linejoin: miter"/>
    </g>
    <g id="patch_29">
-    <path d="M 605.544857 92.518848 
-L 813.499714 92.518848 
-Q 818.172857 92.518848 818.172857 93.172032 
-L 818.172857 106.235712 
-Q 818.172857 106.888896 813.499714 106.888896 
-L 605.544857 106.888896 
-Q 600.871714 106.888896 600.871714 106.235712 
-L 600.871714 93.172032 
-Q 600.871714 92.518848 605.544857 92.518848 
+    <path d="M 605.544857 111.36528 
+L 813.499714 111.36528 
+Q 818.172857 111.36528 818.172857 112.15152 
+L 818.172857 127.87632 
+Q 818.172857 128.66256 813.499714 128.66256 
+L 605.544857 128.66256 
+Q 600.871714 128.66256 600.871714 127.87632 
+L 600.871714 112.15152 
+Q 600.871714 111.36528 605.544857 111.36528 
 z
-" clip-path="url(#pc9c0db42e0)" style="fill: #bed1db; stroke: #84acc1; stroke-linejoin: miter"/>
+" clip-path="url(#pf21a062822)" style="fill: #bed1db; stroke: #84acc1; stroke-linejoin: miter"/>
    </g>
    <g id="text_8">
     <!-- Coffee -->
-    <g style="fill: #8a9aa0" transform="translate(696.766192 118.454331) scale(0.09 -0.09)">
+    <g style="fill: #8a9aa0" transform="translate(695.915786 142.25217) scale(0.096 -0.096)">
      <use xlink:href="#FiraSans-Light-43"/>
      <use xlink:href="#FiraSans-Light-6f" transform="translate(54.999985 0)"/>
      <use xlink:href="#FiraSans-Light-66" transform="translate(112.099976 0)"/>
@@ -865,34 +865,34 @@ z
     </g>
    </g>
    <g id="patch_30">
-    <path d="M 605.544857 124.851456 
-L 813.499714 124.851456 
-Q 818.172857 124.851456 818.172857 125.50464 
-L 818.172857 131.056704 
-Q 818.172857 131.709888 813.499714 131.709888 
-L 605.544857 131.709888 
-Q 600.871714 131.709888 600.871714 131.056704 
-L 600.871714 125.50464 
-Q 600.871714 124.851456 605.544857 124.851456 
+    <path d="M 605.544857 150.28416 
+L 813.499714 150.28416 
+Q 818.172857 150.28416 818.172857 151.0704 
+L 818.172857 157.75344 
+Q 818.172857 158.53968 813.499714 158.53968 
+L 605.544857 158.53968 
+Q 600.871714 158.53968 600.871714 157.75344 
+L 600.871714 151.0704 
+Q 600.871714 150.28416 605.544857 150.28416 
 z
-" clip-path="url(#pc9c0db42e0)" style="fill: #dcdedf; stroke: #949d9f; stroke-linejoin: miter"/>
+" clip-path="url(#pf21a062822)" style="fill: #dcdedf; stroke: #949d9f; stroke-linejoin: miter"/>
    </g>
    <g id="patch_31">
-    <path d="M 371.887714 343.341504 
-L 579.842571 343.341504 
-Q 584.515714 343.341504 584.515714 343.994688 
-L 584.515714 351.179712 
-Q 584.515714 351.832896 579.842571 351.832896 
-L 371.887714 351.832896 
-Q 367.214571 351.832896 367.214571 351.179712 
-L 367.214571 343.994688 
-Q 367.214571 343.341504 371.887714 343.341504 
+    <path d="M 371.887714 413.28144 
+L 579.842571 413.28144 
+Q 584.515714 413.28144 584.515714 414.06768 
+L 584.515714 422.71632 
+Q 584.515714 423.50256 579.842571 423.50256 
+L 371.887714 423.50256 
+Q 367.214571 423.50256 367.214571 422.71632 
+L 367.214571 414.06768 
+Q 367.214571 413.28144 371.887714 413.28144 
 z
-" clip-path="url(#pc9c0db42e0)" style="fill: #e8d9db; stroke: #c6848e; stroke-linejoin: miter"/>
+" clip-path="url(#pf21a062822)" style="fill: #e8d9db; stroke: #c6848e; stroke-linejoin: miter"/>
    </g>
    <g id="text_9">
     <!-- 9:00 -->
-    <g style="fill: #8a9aa0" transform="translate(81.828071 50.388703) scale(0.085 -0.085)">
+    <g style="fill: #8a9aa0" transform="translate(80.550571 60.375616) scale(0.092 -0.092)">
      <defs>
       <path id="FiraSans-Light-39" d="M 1632 4326 
 Q 2278 4326 2601 3875 
@@ -972,7 +972,7 @@ z
    </g>
    <g id="text_10">
     <!-- 10:00 -->
-    <g style="fill: #8a9aa0" transform="translate(78.045571 83.047903) scale(0.085 -0.085)">
+    <g style="fill: #8a9aa0" transform="translate(76.456571 99.687616) scale(0.092 -0.092)">
      <defs>
       <path id="FiraSans-Light-31" d="M 1869 4256 
 L 1869 0 
@@ -994,7 +994,7 @@ z
    </g>
    <g id="text_11">
     <!-- 11:00 -->
-    <g style="fill: #8a9aa0" transform="translate(79.210337 115.707103) scale(0.085 -0.085)">
+    <g style="fill: #8a9aa0" transform="translate(77.717259 138.999616) scale(0.092 -0.092)">
      <use xlink:href="#FiraSans-Light-31"/>
      <use xlink:href="#FiraSans-Light-31" transform="translate(41.299988 0)"/>
      <use xlink:href="#FiraSans-Light-3a" transform="translate(82.599976 0)"/>
@@ -1004,7 +1004,7 @@ z
    </g>
    <g id="text_12">
     <!-- 12:00 -->
-    <g style="fill: #8a9aa0" transform="translate(78.64854 148.366303) scale(0.085 -0.085)">
+    <g style="fill: #8a9aa0" transform="translate(77.109196 178.311616) scale(0.092 -0.092)">
      <defs>
       <path id="FiraSans-Light-32" d="M 1440 4326 
 Q 1978 4326 2294 4012 
@@ -1038,7 +1038,7 @@ z
    </g>
    <g id="text_13">
     <!-- 13:00 -->
-    <g style="fill: #8a9aa0" transform="translate(78.590103 181.025503) scale(0.085 -0.085)">
+    <g style="fill: #8a9aa0" transform="translate(77.045946 217.623616) scale(0.092 -0.092)">
      <defs>
       <path id="FiraSans-Light-33" d="M 1414 4326 
 Q 1773 4326 2038 4185 
@@ -1082,7 +1082,7 @@ z
    </g>
    <g id="text_14">
     <!-- 14:00 -->
-    <g style="fill: #8a9aa0" transform="translate(78.317837 213.684703) scale(0.085 -0.085)">
+    <g style="fill: #8a9aa0" transform="translate(76.751259 256.935616) scale(0.092 -0.092)">
      <defs>
       <path id="FiraSans-Light-34" d="M 3091 1427 
 L 3091 1120 
@@ -1112,7 +1112,7 @@ z
    </g>
    <g id="text_15">
     <!-- 15:00 -->
-    <g style="fill: #8a9aa0" transform="translate(78.580806 246.343903) scale(0.085 -0.085)">
+    <g style="fill: #8a9aa0" transform="translate(77.035884 296.247616) scale(0.092 -0.092)">
      <defs>
       <path id="FiraSans-Light-35" d="M 2592 3949 
 L 864 3949 
@@ -1149,7 +1149,7 @@ z
    </g>
    <g id="text_16">
     <!-- 16:00 -->
-    <g style="fill: #8a9aa0" transform="translate(78.26604 279.003103) scale(0.085 -0.085)">
+    <g style="fill: #8a9aa0" transform="translate(76.695196 335.559616) scale(0.092 -0.092)">
      <defs>
       <path id="FiraSans-Light-36" d="M 1894 2771 
 Q 2387 2771 2707 2428 
@@ -1190,7 +1190,7 @@ z
    </g>
    <g id="text_17">
     <!-- 17:00 -->
-    <g style="fill: #8a9aa0" transform="translate(79.005806 311.662303) scale(0.085 -0.085)">
+    <g style="fill: #8a9aa0" transform="translate(77.495884 374.871616) scale(0.092 -0.092)">
      <defs>
       <path id="FiraSans-Light-37" d="M 2566 4256 
 L 2566 3968 
@@ -1212,7 +1212,7 @@ z
    </g>
    <g id="text_18">
     <!-- 18:00 -->
-    <g style="fill: #8a9aa0" transform="translate(78.147837 344.321503) scale(0.085 -0.085)">
+    <g style="fill: #8a9aa0" transform="translate(76.567259 414.183616) scale(0.092 -0.092)">
      <defs>
       <path id="FiraSans-Light-38" d="M 2157 2253 
 Q 2650 2054 2877 1788 
@@ -1269,7 +1269,7 @@ z
    </g>
    <g id="text_19">
     <!-- Wed 30 Sep -->
-    <g style="fill: #23373b" transform="translate(207.236672 23.12658) scale(0.135 -0.135)">
+    <g style="fill: #23373b" transform="translate(204.646203 28.1963) scale(0.145 -0.145)">
      <defs>
       <path id="FiraSans-Light-57" d="M 4986 4384 
 L 4026 0 
@@ -1386,7 +1386,7 @@ z
    </g>
    <g id="text_20">
     <!-- Welcome -->
-    <g style="fill: #23373b" transform="translate(226.784156 54.229017) scale(0.076 -0.076)">
+    <g style="fill: #23373b" transform="translate(225.160594 65.074429) scale(0.084 -0.084)">
      <defs>
       <path id="FiraSans-Light-6c" d="M 1235 -70 
 Q 960 -70 803 90 
@@ -1442,7 +1442,7 @@ z
    </g>
    <g id="text_21">
     <!-- Bonanno -->
-    <g style="fill: #ffffff" transform="translate(221.061164 68.56264) scale(0.105 -0.105)">
+    <g style="fill: #ffffff" transform="translate(219.04718 82.22276) scale(0.115 -0.115)">
      <defs>
       <path id="FiraSans-Light-42" d="M 2470 2323 
 Q 2918 2272 3200 2006 
@@ -1487,7 +1487,7 @@ z
    </g>
    <g id="text_22">
     <!-- axion phenomenology -->
-    <g style="fill: #ffffff; opacity: 0.93" transform="translate(199.531172 77.89233) scale(0.086 -0.086)">
+    <g style="fill: #ffffff; opacity: 0.93" transform="translate(196.553719 93.443696) scale(0.092 -0.092)">
      <defs>
       <path id="FiraSans-Light-78" d="M 1690 1792 
 L 2867 0 
@@ -1545,7 +1545,7 @@ z
    </g>
    <g id="text_23">
     <!-- Francesconi -->
-    <g style="fill: #33474b" transform="translate(214.188586 90.281008) scale(0.105 -0.105)">
+    <g style="fill: #33474b" transform="translate(214.989141 109.194921) scale(0.102 -0.102)">
      <defs>
       <path id="FiraSans-Light-46" d="M 710 0 
 L 710 4384 
@@ -1576,7 +1576,7 @@ z
    </g>
    <g id="text_24">
     <!-- topology at finite $T$ -->
-    <g style="fill: #33474b; opacity: 0.93" transform="translate(206.002 99.619432) scale(0.086 -0.086)">
+    <g style="fill: #33474b; opacity: 0.93" transform="translate(208.107 117.72054) scale(0.081 -0.081)">
      <defs>
       <path id="FiraSans-LightItalic-54" d="M 3475 4384 
 L 3379 4045 
@@ -1614,7 +1614,7 @@ z
    </g>
    <g id="text_25">
     <!-- Gagliardi -->
-    <g style="fill: #ffffff" transform="translate(221.34007 128.544772) scale(0.105 -0.105)">
+    <g style="fill: #ffffff" transform="translate(219.352648 154.41778) scale(0.115 -0.115)">
      <defs>
       <path id="FiraSans-Light-47" d="M 2253 4454 
 Q 2624 4454 2899 4348 
@@ -1655,7 +1655,7 @@ z
    </g>
    <g id="text_26">
     <!-- flavour physics -->
-    <g style="fill: #ffffff; opacity: 0.93" transform="translate(213.341562 137.821962) scale(0.086 -0.086)">
+    <g style="fill: #ffffff; opacity: 0.93" transform="translate(211.327625 165.581216) scale(0.092 -0.092)">
      <defs>
       <path id="FiraSans-Light-76" d="M 2912 3347 
 L 1754 0 
@@ -1687,7 +1687,7 @@ z
    </g>
    <g id="text_27">
     <!-- Margari -->
-    <g style="fill: #33474b" transform="translate(224.563898 150.426436) scale(0.105 -0.105)">
+    <g style="fill: #33474b" transform="translate(225.068016 181.580001) scale(0.102 -0.102)">
      <defs>
       <path id="FiraSans-Light-4d" d="M 4486 0 
 L 4115 0 
@@ -1720,7 +1720,7 @@ z
    </g>
    <g id="text_28">
     <!-- smeared $R$-ratio -->
-    <g style="fill: #33474b; opacity: 0.93" transform="translate(211.033 159.660626) scale(0.086 -0.086)">
+    <g style="fill: #33474b; opacity: 0.93" transform="translate(212.8455 190.005893) scale(0.081 -0.081)">
      <defs>
       <path id="FiraSans-LightItalic-52" d="M 3546 3354 
 Q 3546 2899 3264 2528 
@@ -1772,7 +1772,7 @@ z
    </g>
    <g id="text_29">
     <!-- Tavella -->
-    <g style="fill: #33474b" transform="translate(225.718078 166.703536) scale(0.105 -0.105)">
+    <g style="fill: #33474b" transform="translate(226.189219 201.185001) scale(0.102 -0.102)">
      <defs>
       <path id="FiraSans-Light-54" d="M 3104 4384 
 L 3059 4045 
@@ -1797,7 +1797,7 @@ z
    </g>
    <g id="text_30">
     <!-- QCD+QED vs RM123 -->
-    <g style="fill: #33474b; opacity: 0.93" transform="translate(205.962359 175.990226) scale(0.086 -0.086)">
+    <g style="fill: #33474b; opacity: 0.93" transform="translate(208.069664 209.661893) scale(0.081 -0.081)">
      <defs>
       <path id="FiraSans-Light-51" d="M 2893 154 
 Q 3258 147 3581 41 
@@ -1897,7 +1897,7 @@ z
    </g>
    <g id="text_31">
     <!-- Nada -->
-    <g style="fill: #ffffff" transform="translate(229.97632 248.18824) scale(0.105 -0.105)">
+    <g style="fill: #ffffff" transform="translate(228.811398 298.43876) scale(0.115 -0.115)">
      <defs>
       <path id="FiraSans-Light-4e" d="M 3597 0 
 L 3091 0 
@@ -1923,7 +1923,7 @@ z
    </g>
    <g id="text_32">
     <!-- generative approaches -->
-    <g style="fill: #ffffff; opacity: 0.93" transform="translate(198.371516 257.51793) scale(0.086 -0.086)">
+    <g style="fill: #ffffff; opacity: 0.93" transform="translate(195.313156 309.659696) scale(0.092 -0.092)">
      <use xlink:href="#FiraSans-Light-67"/>
      <use xlink:href="#FiraSans-Light-65" transform="translate(50.299988 0)"/>
      <use xlink:href="#FiraSans-Light-6e" transform="translate(103.899979 0)"/>
@@ -1949,7 +1949,7 @@ z
    </g>
    <g id="text_33">
     <!-- Verzichelli -->
-    <g style="fill: #33474b" transform="translate(218.194172 269.906608) scale(0.105 -0.105)">
+    <g style="fill: #33474b" transform="translate(218.880281 325.410921) scale(0.102 -0.102)">
      <defs>
       <path id="FiraSans-Light-56" d="M 3392 4384 
 L 1965 0 
@@ -1990,7 +1990,7 @@ z
    </g>
    <g id="text_34">
     <!-- stochastic norm. flows -->
-    <g style="fill: #33474b; opacity: 0.93" transform="translate(199.237562 279.193298) scale(0.086 -0.086)">
+    <g style="fill: #33474b; opacity: 0.93" transform="translate(201.735844 333.887813) scale(0.081 -0.081)">
      <defs>
       <path id="FiraSans-Light-2e" d="M 659 538 
 Q 794 538 880 451 
@@ -2046,7 +2046,7 @@ z
    </g>
    <g id="text_35">
     <!-- Cellini -->
-    <g style="fill: #33474b" transform="translate(227.622844 286.236208) scale(0.105 -0.105)">
+    <g style="fill: #33474b" transform="translate(228.039562 345.066921) scale(0.102 -0.102)">
      <use xlink:href="#FiraSans-Light-43"/>
      <use xlink:href="#FiraSans-Light-65" transform="translate(54.999985 0)"/>
      <use xlink:href="#FiraSans-Light-6c" transform="translate(108.599976 0)"/>
@@ -2058,7 +2058,7 @@ z
    </g>
    <g id="text_36">
     <!-- Jarzynski $\leftrightarrow$ RG -->
-    <g style="fill: #33474b; opacity: 0.93" transform="translate(212.065 295.574632) scale(0.086 -0.086)">
+    <g style="fill: #33474b; opacity: 0.93" transform="translate(213.8175 353.59254) scale(0.081 -0.081)">
      <defs>
       <path id="FiraSans-Light-4a" d="M 1184 589 
 Q 1184 198 1085 -48 
@@ -2154,7 +2154,7 @@ z
    </g>
    <g id="text_37">
     <!-- Thu 1 Oct -->
-    <g style="fill: #23373b" transform="translate(447.986588 23.12658) scale(0.135 -0.135)">
+    <g style="fill: #23373b" transform="translate(445.92151 28.1963) scale(0.145 -0.145)">
      <defs>
       <path id="FiraSans-Light-4f" d="M 2208 4454 
 Q 2746 4454 3149 4195 
@@ -2195,7 +2195,7 @@ z
    </g>
    <g id="text_38">
     <!-- Butti -->
-    <g style="fill: #ffffff" transform="translate(464.688385 60.39784) scale(0.105 -0.105)">
+    <g style="fill: #ffffff" transform="translate(463.623932 72.39476) scale(0.115 -0.115)">
      <use xlink:href="#FiraSans-Light-42"/>
      <use xlink:href="#FiraSans-Light-75" transform="translate(59.799988 0)"/>
      <use xlink:href="#FiraSans-Light-74" transform="translate(117.699982 0)"/>
@@ -2205,7 +2205,7 @@ z
    </g>
    <g id="text_39">
     <!-- sampling by transport -->
-    <g style="fill: #ffffff; opacity: 0.93" transform="translate(433.528283 69.72753) scale(0.086 -0.086)">
+    <g style="fill: #ffffff; opacity: 0.93" transform="translate(430.574549 83.615696) scale(0.092 -0.092)">
      <defs>
       <path id="FiraSans-Light-62" d="M 2054 3418 
 Q 2637 3418 2957 2970 
@@ -2258,7 +2258,7 @@ z
    </g>
    <g id="text_40">
     <!-- Liturri -->
-    <g style="fill: #33474b" transform="translate(461.779557 82.116208) scale(0.105 -0.105)">
+    <g style="fill: #33474b" transform="translate(462.182002 99.366921) scale(0.102 -0.102)">
      <use xlink:href="#FiraSans-Light-4c"/>
      <use xlink:href="#FiraSans-Light-69" transform="translate(47.699997 0)"/>
      <use xlink:href="#FiraSans-Light-74" transform="translate(74.699982 0)"/>
@@ -2270,7 +2270,7 @@ z
    </g>
    <g id="text_41">
     <!-- flows for 2D QED -->
-    <g style="fill: #33474b; opacity: 0.93" transform="translate(444.108971 91.402898) scale(0.086 -0.086)">
+    <g style="fill: #33474b; opacity: 0.93" transform="translate(445.95526 107.843813) scale(0.081 -0.081)">
      <use xlink:href="#FiraSans-Light-66"/>
      <use xlink:href="#FiraSans-Light-6c" transform="translate(32.099991 0)"/>
      <use xlink:href="#FiraSans-Light-6f" transform="translate(60.499985 0)"/>
@@ -2291,14 +2291,14 @@ z
    </g>
    <g id="text_42">
     <!-- Gu -->
-    <g style="fill: #33474b" transform="translate(469.580729 114.775408) scale(0.105 -0.105)">
+    <g style="fill: #33474b" transform="translate(469.760283 138.678921) scale(0.102 -0.102)">
      <use xlink:href="#FiraSans-Light-47"/>
      <use xlink:href="#FiraSans-Light-75" transform="translate(61.799988 0)"/>
     </g>
    </g>
    <g id="text_43">
     <!-- QCD magnetometer -->
-    <g style="fill: #33474b; opacity: 0.93" transform="translate(438.39669 124.062098) scale(0.086 -0.086)">
+    <g style="fill: #33474b; opacity: 0.93" transform="translate(440.575088 147.155813) scale(0.081 -0.081)">
      <use xlink:href="#FiraSans-Light-51"/>
      <use xlink:href="#FiraSans-Light-43" transform="translate(68.999985 0)"/>
      <use xlink:href="#FiraSans-Light-44" transform="translate(123.999969 0)"/>
@@ -2319,7 +2319,7 @@ z
    </g>
    <g id="text_44">
     <!-- Romiti -->
-    <g style="fill: #ffffff" transform="translate(460.667213 136.657072) scale(0.105 -0.105)">
+    <g style="fill: #ffffff" transform="translate(459.219791 164.18828) scale(0.115 -0.115)">
      <use xlink:href="#FiraSans-Light-52"/>
      <use xlink:href="#FiraSans-Light-6f" transform="translate(58.999985 0)"/>
      <use xlink:href="#FiraSans-Light-6d" transform="translate(116.099976 0)"/>
@@ -2330,7 +2330,7 @@ z
    </g>
    <g id="text_45">
     <!-- neural states as PINNs -->
-    <g style="fill: #ffffff; opacity: 0.93" transform="translate(432.550705 145.943762) scale(0.086 -0.086)">
+    <g style="fill: #ffffff; opacity: 0.93" transform="translate(429.528768 175.363216) scale(0.092 -0.092)">
      <defs>
       <path id="FiraSans-Light-50" d="M 1741 4384 
 Q 2522 4384 2941 4061 
@@ -2387,7 +2387,7 @@ z
    </g>
    <g id="text_46">
     <!-- Discussion Session -->
-    <g style="fill: #23373b" transform="translate(429.255221 176.309196) scale(0.11 -0.11)">
+    <g style="fill: #23373b" transform="translate(425.017955 211.890292) scale(0.12 -0.12)">
      <use xlink:href="#FiraSans-Light-44"/>
      <use xlink:href="#FiraSans-Light-69" transform="translate(63.199997 0)"/>
      <use xlink:href="#FiraSans-Light-73" transform="translate(90.199982 0)"/>
@@ -2410,7 +2410,7 @@ z
    </g>
    <g id="text_47">
     <!-- Fontana -->
-    <g style="fill: #ffffff" transform="translate(456.792877 260.43544) scale(0.105 -0.105)">
+    <g style="fill: #ffffff" transform="translate(454.976471 313.18076) scale(0.115 -0.115)">
      <use xlink:href="#FiraSans-Light-46"/>
      <use xlink:href="#FiraSans-Light-6f" transform="translate(48.099991 0)"/>
      <use xlink:href="#FiraSans-Light-6e" transform="translate(105.199982 0)"/>
@@ -2422,7 +2422,7 @@ z
    </g>
    <g id="text_48">
     <!-- Wauters -->
-    <g style="fill: #ffffff" transform="translate(456.760885 283.623472) scale(0.105 -0.105)">
+    <g style="fill: #ffffff" transform="translate(454.941432 341.09228) scale(0.115 -0.115)">
      <use xlink:href="#FiraSans-Light-57"/>
      <use xlink:href="#FiraSans-Light-61" transform="translate(80.999985 0)"/>
      <use xlink:href="#FiraSans-Light-75" transform="translate(134.599976 0)"/>
@@ -2434,7 +2434,7 @@ z
    </g>
    <g id="text_49">
     <!-- discrete non-Abelian LGT -->
-    <g style="fill: #ffffff; opacity: 0.93" transform="translate(427.627877 292.910162) scale(0.086 -0.086)">
+    <g style="fill: #ffffff; opacity: 0.93" transform="translate(424.262487 352.267216) scale(0.092 -0.092)">
      <defs>
       <path id="FiraSans-Light-41" d="M 3104 0 
 L 2720 1197 
@@ -2481,7 +2481,7 @@ z
    </g>
    <g id="text_50">
     <!-- Chakraborty -->
-    <g style="fill: #ffffff" transform="translate(447.511862 333.91864) scale(0.105 -0.105)">
+    <g style="fill: #ffffff" transform="translate(444.811549 401.63276) scale(0.115 -0.115)">
      <use xlink:href="#FiraSans-Light-43"/>
      <use xlink:href="#FiraSans-Light-68" transform="translate(54.999985 0)"/>
      <use xlink:href="#FiraSans-Light-61" transform="translate(113.399979 0)"/>
@@ -2497,7 +2497,7 @@ z
    </g>
    <g id="text_51">
     <!-- Fri 2 Oct -->
-    <g style="fill: #23373b" transform="translate(684.803575 23.12658) scale(0.135 -0.135)">
+    <g style="fill: #23373b" transform="translate(682.972559 28.1963) scale(0.145 -0.145)">
      <use xlink:href="#FiraSans-Light-46"/>
      <use xlink:href="#FiraSans-Light-72" transform="translate(48.099991 0)"/>
      <use xlink:href="#FiraSans-Light-69" transform="translate(85.399979 0)"/>
@@ -2511,7 +2511,7 @@ z
    </g>
    <g id="text_52">
     <!-- Piccitto -->
-    <g style="fill: #ffffff" transform="translate(692.192364 60.39784) scale(0.105 -0.105)">
+    <g style="fill: #ffffff" transform="translate(690.541895 72.39476) scale(0.115 -0.115)">
      <use xlink:href="#FiraSans-Light-50"/>
      <use xlink:href="#FiraSans-Light-69" transform="translate(56.999985 0)"/>
      <use xlink:href="#FiraSans-Light-63" transform="translate(83.999969 0)"/>
@@ -2524,7 +2524,7 @@ z
    </g>
    <g id="text_53">
     <!-- Ising quantum Otto engine -->
-    <g style="fill: #ffffff; opacity: 0.93" transform="translate(658.119817 69.72753) scale(0.086 -0.086)">
+    <g style="fill: #ffffff; opacity: 0.93" transform="translate(654.533598 83.615696) scale(0.092 -0.092)">
      <defs>
       <path id="FiraSans-Light-71" d="M 3066 3347 
 L 3066 -1312 
@@ -2582,7 +2582,7 @@ z
    </g>
    <g id="text_54">
     <!-- Arezzo -->
-    <g style="fill: #33474b" transform="translate(694.355528 82.116208) scale(0.105 -0.105)">
+    <g style="fill: #33474b" transform="translate(694.788864 99.366921) scale(0.102 -0.102)">
      <use xlink:href="#FiraSans-Light-41"/>
      <use xlink:href="#FiraSans-Light-72" transform="translate(56.499985 0)"/>
      <use xlink:href="#FiraSans-Light-65" transform="translate(93.799973 0)"/>
@@ -2593,7 +2593,7 @@ z
    </g>
    <g id="text_55">
     <!-- optimal control -->
-    <g style="fill: #33474b; opacity: 0.93" transform="translate(679.818692 91.445898) scale(0.086 -0.086)">
+    <g style="fill: #33474b; opacity: 0.93" transform="translate(681.545645 107.884313) scale(0.081 -0.081)">
      <use xlink:href="#FiraSans-Light-6f"/>
      <use xlink:href="#FiraSans-Light-70" transform="translate(57.099991 0)"/>
      <use xlink:href="#FiraSans-Light-74" transform="translate(115.199982 0)"/>
@@ -2613,7 +2613,7 @@ z
    </g>
    <g id="text_56">
     <!-- De Simone -->
-    <g style="fill: #33474b" transform="translate(684.322286 98.445808) scale(0.105 -0.105)">
+    <g style="fill: #33474b" transform="translate(685.042286 119.022921) scale(0.102 -0.102)">
      <use xlink:href="#FiraSans-Light-44"/>
      <use xlink:href="#FiraSans-Light-65" transform="translate(63.199997 0)"/>
      <use xlink:href="#FiraSans-Light-20" transform="translate(116.799988 0)"/>
@@ -2627,7 +2627,7 @@ z
    </g>
    <g id="text_57">
     <!-- entanglement on graphs -->
-    <g style="fill: #33474b; opacity: 0.93" transform="translate(662.343223 107.732498) scale(0.086 -0.086)">
+    <g style="fill: #33474b; opacity: 0.93" transform="translate(665.086192 127.499813) scale(0.081 -0.081)">
      <use xlink:href="#FiraSans-Light-65"/>
      <use xlink:href="#FiraSans-Light-6e" transform="translate(53.599991 0)"/>
      <use xlink:href="#FiraSans-Light-74" transform="translate(111.999985 0)"/>
@@ -2654,7 +2654,7 @@ z
    </g>
    <g id="text_58">
     <!-- Conclusions -->
-    <g style="fill: #23373b" transform="translate(689.039098 130.324953) scale(0.076 -0.076)">
+    <g style="fill: #23373b" transform="translate(686.882973 156.671389) scale(0.084 -0.084)">
      <use xlink:href="#FiraSans-Light-43"/>
      <use xlink:href="#FiraSans-Light-6f" transform="translate(54.999985 0)"/>
      <use xlink:href="#FiraSans-Light-6e" transform="translate(112.099976 0)"/>
@@ -2670,7 +2670,7 @@ z
    </g>
    <g id="text_59">
     <!-- Social dinner  ·  20:00  ·  La Grotta -->
-    <g style="fill: #9c162a" transform="translate(408.659752 350.008059) scale(0.09 -0.09)">
+    <g style="fill: #9c162a" transform="translate(404.179393 420.97425) scale(0.096 -0.096)">
      <defs>
       <path id="FiraSans-Light-b7" d="M 659 2342 
 Q 794 2342 880 2256 
@@ -2725,32 +2725,32 @@ z
    </g>
   </g>
   <g id="patch_32">
-   <path d="M 70.992 380.2464 
-L 85.1904 380.2464 
-L 85.1904 368.5824 
-L 70.992 368.5824 
+   <path d="M 70.992 457.704 
+L 85.1904 457.704 
+L 85.1904 443.664 
+L 70.992 443.664 
 z
 " style="fill: #23373b"/>
   </g>
   <g id="patch_33">
-   <path d="M 317.376 380.2464 
-L 331.5744 380.2464 
-L 331.5744 368.5824 
-L 317.376 368.5824 
+   <path d="M 317.376 457.704 
+L 331.5744 457.704 
+L 331.5744 443.664 
+L 317.376 443.664 
 z
 " style="fill: #eb811b"/>
   </g>
   <g id="patch_34">
-   <path d="M 563.76 380.2464 
-L 577.9584 380.2464 
-L 577.9584 368.5824 
-L 563.76 368.5824 
+   <path d="M 563.76 457.704 
+L 577.9584 457.704 
+L 577.9584 443.664 
+L 563.76 443.664 
 z
 " style="fill: #3b7ea1"/>
   </g>
   <g id="text_60">
    <!-- precision lattice QCD -->
-   <g style="fill: #33474b" transform="translate(92.7072 377.017252) scale(0.095 -0.095)">
+   <g style="fill: #33474b" transform="translate(92.7072 453.478641) scale(0.102 -0.102)">
     <use xlink:href="#FiraSans-Light-70"/>
     <use xlink:href="#FiraSans-Light-72" transform="translate(58.099991 0)"/>
     <use xlink:href="#FiraSans-Light-65" transform="translate(95.399979 0)"/>
@@ -2776,7 +2776,7 @@ z
   </g>
   <g id="text_61">
    <!-- sampling &amp; generative ML -->
-   <g style="fill: #33474b" transform="translate(339.0912 377.017252) scale(0.095 -0.095)">
+   <g style="fill: #33474b" transform="translate(339.0912 453.478641) scale(0.102 -0.102)">
     <defs>
      <path id="FiraSans-Light-26" d="M 1926 4454 
 Q 2394 4454 2691 4188 
@@ -2851,7 +2851,7 @@ z
   </g>
   <g id="text_62">
    <!-- quantum simulation &amp; many-body -->
-   <g style="fill: #33474b" transform="translate(585.4752 377.017252) scale(0.095 -0.095)">
+   <g style="fill: #33474b" transform="translate(585.4752 453.478641) scale(0.102 -0.102)">
     <use xlink:href="#FiraSans-Light-71"/>
     <use xlink:href="#FiraSans-Light-75" transform="translate(58.499985 0)"/>
     <use xlink:href="#FiraSans-Light-61" transform="translate(116.399979 0)"/>
@@ -2886,8 +2886,8 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="pc9c0db42e0">
-   <rect x="45.936" y="29.16" width="785.088" height="326.592"/>
+  <clipPath id="pf21a062822">
+   <rect x="45.936" y="35.1" width="785.088" height="393.12"/>
   </clipPath>
  </defs>
 </svg>

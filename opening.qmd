@@ -10,7 +10,11 @@ format:
     footer: "StaND4LQ · Pisa · 30 September – 2 October 2026"
     center-title-slide: false
     pdf-separate-fragments: false
-header-logo: marchio_unipi_orizz_pant541.png
+    # Quarto tags a lone image with .r-stretch, and reveal then sets an inline
+    # height that beats theme.scss -- which shrank the programme grid instead of
+    # filling the slide. Size the figures from CSS instead.
+    auto-stretch: false
+header-logo: header_stand4lq.png
 author:
   - name: Roberto Dionisio
     affiliations: University of Pisa
@@ -20,7 +24,6 @@ author:
     affiliations: University of Pisa
   - name: Margherita Sagina
     affiliations: University of Pisa
-date: 2026-09-30
 embed-resources: false
 header-includes:
   - |
@@ -37,9 +40,25 @@ header-includes:
       };
     </script>
     <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-svg.js"></script>
+  - |
+    <script>
+      // Title slide: drop the colour Pisa + INFN lockup into the empty lower
+      // left. Injected as a real <img> (src resolves relative to the page)
+      // rather than a reveal background, which would tint the title text.
+      window.addEventListener('load', function () {
+        var ts = document.getElementById('title-slide');
+        if (ts && !ts.querySelector('.title-logos')) {
+          var img = document.createElement('img');
+          img.className = 'title-logos';
+          img.src = 'title_stand4lq.png';
+          img.alt = 'University of Pisa and INFN';
+          ts.appendChild(img);
+        }
+      });
+    </script>
 ---
 
-## Welcome {.welcome}
+## Welcome {.center}
 
 ::: {.lead style="text-align:center; font-size:1.15em; margin-top:0.2em"}
 Benvenuti a Pisa — and welcome to the **first edition** of StaND4LQ.
@@ -71,7 +90,7 @@ The wall is not a technicality. It is a **sign problem**, an ill-posed
 **analytic continuation**, and a Hilbert space that grows **exponentially**.
 :::
 
-## Four problems. Four communities.
+## Four problems. Four communities. {.center}
 
 :::: {.columns}
 ::: {.column width="50%"}
@@ -159,7 +178,7 @@ Nine contributed talks from early-career researchers sit alongside them — by d
 not as filler.
 :::
 
-## A first edition, in numbers
+## A first edition, in numbers {.center}
 
 ::: {.numbers}
 ::: {.n}
@@ -184,9 +203,9 @@ Italy · United Kingdom · Switzerland · Denmark · Spain
 For a first edition, assembled by four PhD students, we are quietly delighted.
 :::
 
-## The session with no talks
+## The session with no talks {.center}
 
-::: {.lead style="text-align:center; margin-top:0.3em"}
+::: {.lead style="text-align:center; margin-top:0.3em; font-size:1.25em"}
 [**Thursday 1 October · 12:10 – 13:30**]{style="color:#EB811B"}
 :::
 
@@ -203,7 +222,7 @@ If you came here to find a collaborator rather than to give a talk, <br>
 **this is the slot that matters**.
 :::
 
-## Practical information
+## Practical information {.center}
 
 :::: {.columns}
 ::: {.column width="52%"}
@@ -237,7 +256,7 @@ Anything at all — find any of the four of us, or write to <br>
 :::
 ::::
 
-## Thank you
+## Thank you {.center}
 
 ::: {.fragment .lead style="margin-top:0.6em; font-size:0.9em"}
 This workshop is supported by the **University of Pisa** and **INFN, Sezione di Pisa** —

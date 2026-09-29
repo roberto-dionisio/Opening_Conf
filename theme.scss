@@ -111,8 +111,15 @@ $muted-color:  #8a9aa0;
   max-height: 56vh;
 }
 
-// Slide 12 is the money slide: give it the extra room.
-.reveal .money img { max-height: 66vh; }
+// The programme grid is the money slide: it has to be readable as a timetable
+// from the back of the room, not just legible as a shape. Let it bleed past the
+// content column, and keep max-height loose so width stays the binding
+// constraint (a binding height would shrink the width and undo the margin).
+.reveal .money img {
+  width: 108%;
+  margin-left: -4%;
+  max-height: 85vh;
+}
 
 // --- slide 2: the plot whose curves draw themselves on --------------------------
 // The figure is inlined as SVG (figures/_fig02_overlay.qmd) so its two curves can
@@ -170,10 +177,24 @@ $muted-color:  #8a9aa0;
   background: transparent;
 }
 
-// One wordmark in the header (Pisa), sized to stay clear of the title.
+// Two wordmarks share the header (Pisa + INFN, white on the navy bar), so the
+// combined lockup is ~4.9:1 and needs more width than a single mark.
 .reveal .header-logo img {
-  max-width: max(150px, 14vw);
-  max-height: max(58px, 8.5vh);
+  max-width: max(200px, 18vw);
+  max-height: max(52px, 7.5vh);
+}
+
+// Title slide: the colour lockup, sitting under the author row. Kept in normal
+// flow on purpose -- the title section is auto-height, so an absolutely
+// positioned `bottom` anchors to the end of the text, not the foot of the
+// slide, and lands on top of the authors.
+.reveal #title-slide .title-logos {
+  display: block;
+  width: min(42%, 560px);
+  height: auto;
+  max-height: none;
+  margin: 3.2em 0 0 0;
+  padding: 0;
 }
 
 // --- title slide: four organizers, listed as peers ----------------------------
@@ -184,16 +205,19 @@ $muted-color:  #8a9aa0;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: flex-start;
-  gap: 0 2.2em;
+  gap: 0 1.5em;
   margin-top: 0.7em;
 }
 
+// The extension spaces authors with `padding-right: 4em !important`, which is
+// built for one or two names and wraps four onto a second line. Same weapon.
 .reveal #title-slide .quarto-title-author {
   text-align: left;
+  padding-right: 1.5em !important;
 }
 
 .reveal #title-slide .quarto-title-author-name {
-  font-size: 0.72em;
+  font-size: 0.6em;
   white-space: nowrap;
 }
 
@@ -255,8 +279,9 @@ $muted-color:  #8a9aa0;
 
 .reveal .numbers .big {
   font-family: "Yanone Kaffeesatz", sans-serif;
-  font-size: 2.6em;
+  font-size: 3.2em;
   color: $defect-color;
+  line-height: 1;
 }
 
 // The zero is the one number we are proud of for a different reason.

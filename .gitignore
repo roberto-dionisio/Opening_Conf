@@ -8,6 +8,9 @@ talk_script*
 *.py
 *.py[cod]
 __pycache__/
+# ...but the figure and logo builders ARE the source for committed SVG/PNG
+# artifacts, so they have to travel with the repo.
+!figures/*.py
 figures/README.md
 
 
