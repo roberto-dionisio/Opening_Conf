@@ -176,30 +176,6 @@ Eighteen talks over three days.
 Nine contributed talks from early-career researchers sit alongside them.
 :::
 
-## A first edition, in numbers {.center}
-
-::: {.numbers}
-::: {.n}
-[31]{.big} <br> [registered participants]{.lbl}
-:::
-::: {.n}
-[18]{.big} <br> [talks in three days]{.lbl}
-:::
-::: {.n}
-[5]{.big} <br> [countries represented]{.lbl}
-:::
-::: {.n}
-[0]{.big .zero} <br> [registration fee]{.lbl}
-:::
-:::
-
-::: {.fragment .lead style="text-align:center; margin-top:1.6em; font-size:0.9em"}
-Italy · United Kingdom · Switzerland · Denmark · Spain
-:::
-
-::: {.fragment .note style="text-align:center; margin-top:0.9em"}
-For a first edition, assembled by four PhD students, we are quite happy!
-:::
 
 ## The session with no talks {.center}
 
