@@ -349,7 +349,7 @@ def fig_converge():
         facecolor=ts.BULK, edgecolor="none", zorder=3))
     ax.text(5.0, cy + ch * 0.62, "strongly interacting quantum matter",
             ha="center", va="center", color="white", fontsize=14.5, zorder=4)
-    ax.text(5.0, cy + ch * 0.25, "the same questions, in three languages",
+    ax.text(5.0, cy + ch * 0.25, "the same physics",
             ha="center", va="center", color="#d3dcdd", fontsize=11,
             style="italic", zorder=4)
 
