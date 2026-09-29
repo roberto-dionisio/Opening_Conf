@@ -1,0 +1,305 @@
+===============================================================================
+StaND4LQ - OPENING TALK - SPEAKING SCRIPT
+Roberto Dionisio
+Wednesday 30 September 2026, 09:00-09:15, Aula Magna, Polo Fibonacci
+===============================================================================
+
+12 slides, 21 clicks. "-> CLICK" marks a fragment.
+
+Reading this at a measured pace comes to about 10 min 30 s, which sits
+comfortably inside the 09:00-09:15 slot. The spare four minutes are there on
+purpose: people arrive late, laptops misbehave, and you want to hand over to
+Claudio without rushing. Do not try to fill them.
+
+TIMING CHECKPOINTS (from a 09:00 start)
+    09:04   leaving slide 3, the precision-science figure
+    09:06   leaving slide 5, the wheel
+    09:09   on slide 8, practical information
+    09:11   done, handing over
+
+IF YOU ARE RUNNING LATE, cut in this order:
+    1. the four barriers on slide 3 - name two, not four
+    2. the wedge-by-wedge walk on slide 5 - give the totals only
+    3. slide 8 down to venue + coffee, drop the timing paragraph
+
+
+===============================================================================
+SLIDE 1 - TITLE                                                          [0:46]
+===============================================================================
+
+Good morning, everyone. Welcome to Pisa, and welcome to StaND4LQ.
+
+My name is Roberto Dionisio, and together with Andrea Giorgieri, Marco Intini
+and Margherita Sagina I have spent a good part of this year putting this
+workshop together. We are all PhD students here at the University of Pisa.
+
+Before anything else: thank you for coming. Some of you travelled a long way
+to be in this room on a Wednesday morning, and we do not take that for granted.
+
+
+===============================================================================
+SLIDE 2 - WELCOME                                                        [0:50]
+===============================================================================
+
+This is the first edition of StaND4LQ.
+
+    -> CLICK
+
+I want to be honest about what that means. This workshop was organised
+entirely by PhD students. There is no senior committee behind us, and there is
+no registration fee. We built the meeting we wanted to attend, and then we
+invited you to it.
+
+    -> CLICK
+
+What you get is three days, eighteen talks, nine invited speakers, and one
+long discussion with no talks at all. I will come back to that last one,
+because it is the part I care about most.
+
+
+===============================================================================
+SLIDE 3 - LATTICE FIELD THEORY IS NOW A PRECISION SCIENCE                [2:05]
+===============================================================================
+
+Let me say why we thought this particular meeting was worth organising.
+
+Lattice field theory has become a precision science. On the left of this
+picture is the regime where that is true: Euclidean, in equilibrium, at zero
+chemical potential. In that corner we compute at the per-mille level. That is
+a real achievement, and it took forty years.
+
+And precisely because we are that precise, we can see very clearly where it
+stops.
+
+In the middle is the wall. It is not one obstacle. It is four, and each one
+stands in front of something specific.
+
+    Critical slowing down and topological freezing block the continuum
+    limit. As the lattice spacing goes down, autocorrelation times blow up,
+    and the topological charge simply stops moving.
+
+    The sign problem blocks finite density. The measure stops being
+    positive, so importance sampling stops being sampling.
+
+    Analytic continuation blocks real-time dynamics. Going from Euclidean to
+    Minkowski is an ill-posed inverse problem.
+
+    And the exponential growth of the Hilbert space blocks anything with a
+    lot of entanglement.
+
+At the bottom are the three families of method being thrown at that wall:
+generative models and normalising flows, tensor networks and neural quantum
+states, and quantum hardware.
+
+    -> CLICK
+
+One thing worth noticing. The first barrier is not exotic and it is not in
+the future. It is already here, at the lattice spacings we use today. The
+other three are the reason the Hamiltonian formulation keeps coming back.
+
+
+===============================================================================
+SLIDE 4 - FOUR PROBLEMS. FOUR COMMUNITIES.                               [0:53]
+===============================================================================
+
+The same four problems, written plainly.
+
+    -> CLICK   (heading "What blocks us")
+    -> CLICK   (the list)
+
+Efficient Monte Carlo sampling. Real-time dynamics. Systems at finite
+density. And gauge theories on quantum devices.
+
+    -> CLICK   (heading "Who is needed")
+    -> CLICK   (the list)
+
+And here is who is needed to solve them. Lattice field theory. Quantum
+information. Machine learning. Quantum many-body physics.
+
+    -> CLICK   (the box)
+
+Now look at the two lists together. Not one of those four problems belongs to
+a single one of those four communities. Not one.
+
+That is the entire premise of this meeting. It is why we did not organise a
+lattice workshop, and we did not organise a quantum simulation workshop. We
+organised this.
+
+
+===============================================================================
+SLIDE 5 - FIVE MAIN AREAS                                                [1:08]
+===============================================================================
+
+Here is how the eighteen talks actually divide up.
+
+    -> CLICK
+Precision QCD and flavour physics. Three talks.
+
+    -> CLICK
+Topology and finite-temperature QCD. Three more.
+
+    -> CLICK
+Generative models and sampling. Five. The largest single area.
+
+    -> CLICK
+Quantum simulation of gauge theories. Four.
+
+    -> CLICK
+And quantum many-body physics and control. Three.
+
+Two things to take from this wheel.
+
+The first: no single area is more than a third of the programme. That was
+deliberate. If you came here for one of these five, you will spend most of
+the week listening to the other four.
+
+The second is the colour. The two dark greens are classical lattice QCD, the
+orange is machine learning and sampling, the two blues are quantum. Six, five
+and seven. Three communities, in more or less equal thirds.
+
+
+===============================================================================
+SLIDE 6 - NINE INVITED SPEAKERS                                          [0:43]
+===============================================================================
+
+These are our nine invited speakers. Bern, Southern Denmark, Southampton,
+Barcelona, Roma Tre, Torino, Catania, Trento. Five countries.
+
+All nine said yes to a workshop that, at the time we asked, did not exist. We
+are very grateful for that.
+
+    -> CLICK
+
+And alongside them, nine contributed talks from early-career researchers.
+They are not filler between the invited talks. They are half the programme,
+and in several cases they are the newest work in the room.
+
+
+===============================================================================
+SLIDE 7 - THE SESSION WITH NO TALKS                                      [1:01]
+===============================================================================
+
+Now the part I promised to come back to.
+
+On Thursday, from ten past twelve until half past one, there is a session
+with no talks in it.
+
+    -> CLICK
+
+An hour and twenty minutes. No speaker, no slides. It is the only part of the
+programme we cannot prepare for you.
+
+    -> CLICK
+
+We put it there on purpose. A workshop this size is not really about the
+talks. You can read the papers. It is about the conversation you have
+afterwards with someone whose methods you do not use.
+
+If you came here to find a collaborator rather than to give a talk, that is
+the slot that matters. Please use it.
+
+
+===============================================================================
+SLIDE 8 - PRACTICAL INFORMATION                                          [1:05]
+===============================================================================
+
+Some practical things.
+
+We are in the Polo Fibonacci, Building A, the Aula Magna of the Department of
+Mathematics. You found it this morning, so the hard part is behind you.
+
+Coffee breaks are offered by the organisation, and they are just outside this
+room.
+
+On timing: invited talks have fifty-minute slots, contributed talks thirty,
+and that includes questions. Speakers, please help us hold to it. If we run
+long in the morning we eat into the discussion, and I have just told you how
+much we care about the discussion.
+
+For anything at all, find any of the four of us. We will be the ones looking
+slightly anxious. Or write to the address on the screen.
+
+
+===============================================================================
+SLIDE 9 - SOCIAL DINNER                                                  [0:34]
+===============================================================================
+
+The social dinner is on Thursday evening, eight o'clock, at Ristorante La
+Grotta.
+
+    -> CLICK
+
+Seven minutes on foot from this room, straight down Via San Francesco. The
+map is on the slide, and we will remind you on Thursday morning. If you have
+not yet told us whether you are coming, please find one of us today.
+
+
+===============================================================================
+SLIDE 10 - WITH THE SUPPORT OF                                           [0:34]
+===============================================================================
+
+None of this would have happened without support.
+
+    -> CLICK
+
+This workshop is funded by the University of Pisa and by INFN, Sezione di
+Pisa.
+
+    -> CLICK
+
+That funding is why there are coffee breaks for three days, and why a first
+edition could run with no registration fee at all. For a meeting organised by
+PhD students, that mattered enormously.
+
+
+===============================================================================
+SLIDE 11 - THANK YOU                                                     [0:35]
+===============================================================================
+
+Two thank yous before I stop.
+
+Nine invited speakers, for agreeing to come to a workshop that did not yet
+exist.
+
+    -> CLICK
+
+Nine contributed talks from early-career researchers, standing alongside them
+by design and not by accident.
+
+    -> CLICK
+
+And all thirty-one of you who registered and came to Pisa. Without you, this
+is four PhD students in an empty lecture hall.
+
+
+===============================================================================
+SLIDE 12 - ENJOY THE WORKSHOP                                            [0:13]
+===============================================================================
+
+That is everything from me.
+
+Claudio, the floor is yours.
+
+Enjoy the workshop.
+
+
+===============================================================================
+NOTES TO SELF
+===============================================================================
+
+- Slide 3 is the one that can run away with you. Four barriers, one sentence
+  each, then move. Do not start explaining the sign problem.
+
+- On slide 4, let the box land before you speak. The line works better after
+  a beat of silence than on top of the animation.
+
+- Slide 5 has five clicks in quick succession. Say the area, say the number,
+  click. Do not editorialise until all five are up.
+
+- First talk is Claudio Bonanno at 09:15 on non-perturbative QCD inputs for
+  axion phenomenology. Have his title slide ready to go before you sit down.
+
+- Numbers to have in your head, in case anyone asks:
+      18 talks    9 invited    9 contributed    31 registered    5 countries
+      areas: 3 precision QCD / 3 topology / 5 sampling & ML /
+             4 quantum simulation / 3 quantum many-body

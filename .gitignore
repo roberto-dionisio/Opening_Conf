@@ -4,6 +4,9 @@
 *.swp
 *~
 talk_script*
+# ...but this deck's speaking script is a deliverable, like the PDF: it has
+# to be reachable from any machine on the morning of the talk.
+!talk_script.txt
 
 *.py
 *.py[cod]
