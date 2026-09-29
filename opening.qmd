@@ -1,0 +1,258 @@
+---
+title: "StaND4LQ"
+subtitle: |
+  State of the Art & New Directions for <br> Lattice Gauge Theory and Quantum Simulation <br>
+  <span class="workshop" style="display:block;text-align:left">Polo Fibonacci · Pisa · 30 September – 2 October 2026</span>
+format:
+  metropolis-beamer-revealjs:
+    theme: theme.scss
+    slide-number: "c/t"
+    footer: "StaND4LQ · Pisa · 30 September – 2 October 2026"
+    center-title-slide: false
+    pdf-separate-fragments: false
+header-logo: marchio_unipi_orizz_pant541.png
+author:
+  - name: Roberto Dionisio
+    affiliations: University of Pisa
+  - name: Andrea Giorgieri
+    affiliations: University of Pisa
+  - name: Marco Intini
+    affiliations: University of Pisa
+  - name: Margherita Sagina
+    affiliations: University of Pisa
+date: 2026-09-30
+embed-resources: false
+header-includes:
+  - |
+    <script type="text/javascript">
+      window.MathJax = {
+        tex: {
+          packages: {'[+]': ['ams', 'color']},
+          inlineMath: [['$', '$'], ['\\(', '\\)']],
+          displayMath: [['$$', '$$'], ['\\[', '\\]']],
+          processEscapes: true
+        },
+        loader: { load: ['[tex]/color'] },
+        options: { skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre'] }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-svg.js"></script>
+---
+
+## Welcome {.welcome}
+
+::: {.lead style="text-align:center; font-size:1.15em; margin-top:0.2em"}
+Benvenuti a Pisa — and welcome to the **first edition** of StaND4LQ.
+:::
+
+::: {.fragment style="margin-top:1.4em; border-left:5px solid #EB811B; background:rgba(235,129,27,0.07); border-radius:6px; padding:0.6em 1.3em"}
+This workshop is organised **entirely by PhD students** of the University of Pisa.
+
+::: {.note style="margin-top:0.4em"}
+No senior committee, no registration fee — just the meeting we wanted to attend.
+:::
+:::
+
+::: {.fragment .lead style="text-align:center; margin-top:1.5em; font-size:0.95em"}
+Three days, [**eighteen talks**]{.defect}, [**ten invited speakers**]{.easy}, and one
+long discussion with no talks at all.
+:::
+
+## Lattice field theory is now a precision science
+
+::: {.note style="text-align:center; margin-top:-0.5em; font-size:0.85em"}
+…and precisely *because* it is, we can see clearly where it stops.
+:::
+
+![](figures/fig_reach.svg)
+
+::: {.fragment .lead style="text-align:center; margin-top:0.3em; font-size:0.8em"}
+The wall is not a technicality. It is a **sign problem**, an ill-posed
+**analytic continuation**, and a Hilbert space that grows **exponentially**.
+:::
+
+## Four problems. Four communities.
+
+:::: {.columns}
+::: {.column width="50%"}
+
+::: {.fragment style="text-align:center; margin-bottom:0.3em"}
+[**What blocks us**]{style="color:#9C162A; font-size:1.05em"}
+:::
+
+::: {.fragment .lead style="font-size:0.82em; line-height:1.75"}
+- efficient **Monte Carlo sampling**
+- **real-time** dynamics
+- systems at **finite density**
+- gauge theories on **quantum devices**
+:::
+
+:::
+::: {.column width="50%"}
+
+::: {.fragment style="text-align:center; margin-bottom:0.3em"}
+[**Who is needed**]{style="color:#3B7EA1; font-size:1.05em"}
+:::
+
+::: {.fragment .lead style="font-size:0.82em; line-height:1.75"}
+- lattice **field theory**
+- **quantum information**
+- **machine learning**
+- quantum **many-body** physics
+:::
+
+:::
+::::
+
+::: {.fragment style="margin-top:1.3em"}
+::: {.eqbox style="display:block; text-align:center; font-size:0.9em"}
+None of these four problems belongs to a single community — <br>
+and that is the entire premise of this meeting.
+:::
+:::
+
+## The programme *is* the argument {.money}
+
+::: {.note style="text-align:center; margin-top:-0.7em; font-size:0.8em"}
+Read it left to right: **state of the art** on Wednesday, **new directions** by Friday.
+:::
+
+![](figures/fig_programme.svg)
+
+## Ten invited speakers
+
+::: {.speakers}
+::: {.sp}
+[Claudio Bonanno]{.nm} <br> [University of Bern]{.af}
+:::
+::: {.sp}
+[Pietro Butti]{.nm} <br> [University of Southern Denmark]{.af}
+:::
+::: {.sp}
+[Elia Cellini]{.nm} <br> [University of Edinburgh · Higgs Centre]{.af}
+:::
+::: {.sp}
+[Bipasha Chakraborty]{.nm} <br> [University of Southampton]{.af}
+:::
+::: {.sp}
+[Pierpaolo Fontana]{.nm} <br> [Universitat Autònoma de Barcelona]{.af}
+:::
+::: {.sp}
+[Giuseppe Gagliardi]{.nm} <br> [INFN, Sezione di Roma Tre]{.af}
+:::
+::: {.sp}
+[Alessandro Nada]{.nm} <br> [Università di Torino · INFN Torino]{.af}
+:::
+::: {.sp}
+[Giulia Piccitto]{.nm} <br> [University of Catania]{.af}
+:::
+::: {.sp}
+[Simone Romiti]{.nm} <br> [University of Bern]{.af}
+:::
+::: {.sp}
+[Matteo Wauters]{.nm} <br> [University of Trento]{.af}
+:::
+:::
+
+::: {.fragment .note style="text-align:center; margin-top:0.8em"}
+Nine contributed talks from early-career researchers sit alongside them — by design,
+not as filler.
+:::
+
+## A first edition, in numbers
+
+::: {.numbers}
+::: {.n}
+[31]{.big} <br> [registered participants]{.lbl}
+:::
+::: {.n}
+[18]{.big} <br> [talks in three days]{.lbl}
+:::
+::: {.n}
+[5]{.big} <br> [countries represented]{.lbl}
+:::
+::: {.n}
+[0]{.big .zero} <br> [registration fee]{.lbl}
+:::
+:::
+
+::: {.fragment .lead style="text-align:center; margin-top:1.6em; font-size:0.9em"}
+Italy · United Kingdom · Switzerland · Denmark · Spain
+:::
+
+::: {.fragment .note style="text-align:center; margin-top:0.9em"}
+For a first edition, assembled by four PhD students, we are quietly delighted.
+:::
+
+## The session with no talks
+
+::: {.lead style="text-align:center; margin-top:0.3em"}
+[**Thursday 1 October · 12:10 – 13:30**]{style="color:#EB811B"}
+:::
+
+::: {.fragment style="margin-top:1.2em; border-left:5px solid #3B7EA1; background:rgba(59,126,161,0.07); border-radius:6px; padding:0.7em 1.4em"}
+An hour and twenty minutes with **no speaker and no slides**.
+
+::: {.note style="margin-top:0.5em"}
+It is the only part of the programme we cannot prepare for you.
+:::
+:::
+
+::: {.fragment .lead style="text-align:center; margin-top:1.4em; font-size:0.88em"}
+If you came here to find a collaborator rather than to give a talk, <br>
+**this is the slot that matters**.
+:::
+
+## Practical information
+
+:::: {.columns}
+::: {.column width="52%"}
+
+::: {.lead style="font-size:0.82em; line-height:1.7"}
+**Venue** <br>
+Polo Fibonacci, Building A <br>
+Aula Magna, Dept. of Mathematics <br>
+Largo Bruno Pontecorvo 3, Pisa
+
+::: {style="margin-top:1.1em"}
+**Coffee breaks** are offered by the organisation, just outside this room.
+:::
+:::
+
+:::
+::: {.column width="48%"}
+
+::: {.fragment style="border:3px dashed #EB811B; border-radius:10px; padding:0.6em 1em; background:rgba(235,129,27,0.09); text-align:center"}
+[**Social dinner**]{style="font-size:1.05em"}
+
+Ristorante **La Grotta**, Pisa <br>
+Thursday 1 October, **20:00**
+:::
+
+::: {.fragment .note style="text-align:center; margin-top:1.1em"}
+Anything at all — find any of the four of us, or write to <br>
+[stand4lq_workshop@lists.infn.it]{style="color:#3B7EA1"}
+:::
+
+:::
+::::
+
+## Thank you
+
+::: {.fragment .lead style="margin-top:0.6em; font-size:0.9em"}
+This workshop is supported by the **University of Pisa** and **INFN, Sezione di Pisa** —
+which is why nobody paid to walk through the door.
+:::
+
+::: {.fragment .lead style="margin-top:1.2em; font-size:0.9em"}
+Thanks to our **invited speakers** for agreeing to come to a workshop that did not
+yet exist, and to everyone who **submitted an abstract**.
+:::
+
+::: {.fragment style="margin-top:1.5em; border-left:5px solid #EB811B; background:rgba(235,129,27,0.07); border-radius:6px; padding:0.6em 1.3em"}
+[**One request**]{style="color:#EB811B"} · the people in this room work on Euclidean
+Monte Carlo, on tensor networks, and on quantum hardware. Sit next to someone whose
+methods you do not use.
+:::
+
+# Enjoy the workshop! {.center}

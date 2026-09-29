@@ -1,0 +1,272 @@
+/*-- scss:defaults --*/
+
+// Layered on top of the metropolis-beamer extension. Same four colors the figures
+// use (see figures/talkstyle.py) so slides and plots speak one language.
+$primary-color: #0c2344;
+$bulk-color:   #23373b;  // bulk coupling      (theme primary)
+$defect-color: #eb811b;  // defect coupling    (theme secondary)
+$easy-color:   #3b7ea1;  // easy / reference distribution
+$target-color: #9c162a;  // target distribution
+$muted-color:  #8a9aa0;
+
+/*-- scss:rules --*/
+
+// --- one-line asides: present but not competing with the figure ---------------
+.reveal .note {
+  font-size: 0.62em;
+  color: $muted-color;
+  line-height: 1.45;
+}
+
+.reveal .lead {
+  font-size: 0.78em;
+  color: #33474b;
+}
+
+// --- the result you want them to leave with ----------------------------------
+.reveal .eqbox {
+  display: inline-block;
+  border: 1.5px solid $defect-color;
+  border-radius: 4px;
+  background: rgba(235, 129, 27, 0.06);
+  padding: 0.1em 0.9em;
+  margin: 0.2em 0;
+}
+
+// --- semantic color, matching the figures -------------------------------------
+.reveal .bulk   { color: $bulk-color; }
+.reveal .defect { color: $defect-color; }
+.reveal .easy   { color: $easy-color; }
+.reveal .target { color: $target-color; }
+
+// --- boxes-and-arrows diagrams (slides 10 and 11) ------------------------------
+.reveal .flow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.9em;
+  margin: 0.5em 0;
+  font-size: 0.8em;
+}
+
+.reveal .flow .box {
+  border: 1.5px solid $bulk-color;
+  border-radius: 4px;
+  padding: 0.28em 1.1em;
+  color: $bulk-color;
+  white-space: nowrap;
+}
+
+.reveal .flow .box.net {
+  border-color: $defect-color;
+  color: $defect-color;
+  background: rgba(235, 129, 27, 0.06);
+}
+
+.reveal .flow .arrow {
+  color: $muted-color;
+  font-size: 1.3em;
+  line-height: 1;
+}
+
+// Two boxes trading information back and forth: the training loop.
+.reveal .loop {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6em;
+  margin-top: 0.6em;
+  font-size: 0.78em;
+}
+
+.reveal .loop .box {
+  border: 1.5px solid $bulk-color;
+  border-radius: 4px;
+  padding: 0.3em 1.0em;
+  color: $bulk-color;
+  text-align: center;
+}
+
+.reveal .loop .exchange {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15em;
+  color: $muted-color;
+  font-size: 0.82em;
+  text-align: center;
+  min-width: 8.5em;
+}
+
+// --- figures: fill their column, never taller than the slide -------------------
+// Scoped to .slides so the header logo (which the theme's JS lifts out of .slides)
+// is left alone. Width + max-height together still preserve aspect ratio: the CSS
+// min/max algorithm recomputes the width when the height cap bites.
+.reveal figure { margin: 0; }
+
+.reveal .slides img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+  max-height: 56vh;
+}
+
+// Slide 12 is the money slide: give it the extra room.
+.reveal .money img { max-height: 66vh; }
+
+// --- slide 2: the plot whose curves draw themselves on --------------------------
+// The figure is inlined as SVG (figures/_fig02_overlay.qmd) so its two curves can
+// be reveal fragments. Each curve group is .draw-line and shares a fragment step
+// with its equation on the left; the base frame (axes, arrow) has no fragment
+// class, so it is always on screen.
+.reveal .slides svg.anim-fig {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+  max-height: 56vh;
+  overflow: visible;
+}
+
+// Before its step the whole curve group is hidden by reveal's fragment opacity, so
+// there is no half-drawn flash. On its step the stroke unspools from one end:
+// --len is the path's own length, set by the getTotalLength() script in the qmd
+// header (the fallback only bites if that script hasn't run).
+.reveal .slides svg.anim-fig .draw-line path {
+  stroke-dasharray: var(--len, 3000);
+  stroke-dashoffset: var(--len, 3000);
+}
+.reveal .slides svg.anim-fig .draw-line.visible path {
+  stroke-dashoffset: 0;
+  transition: stroke-dashoffset 0.9s ease-in-out;
+}
+
+// Slide 3: the Q=+1 worldline wraps across the periodic edge, so it is drawn in
+// two pieces. The second (upper) piece waits for the first to reach the edge, so
+// the pen runs bottom -> right edge -> left edge -> top, tracing the periodicity.
+.reveal .slides svg.anim-fig .draw-line.draw-seq2.visible path {
+  transition-delay: 0.9s;
+}
+
+// Slide 3: the two boxes live in the left column, so fill the column width and
+// just cap the height (so a tall/narrow projector can't blow them up).
+.reveal .slides svg.ring-fig {
+  width: 100%;
+  height: auto;
+  max-height: 48vh;
+  margin: 0 auto;
+}
+
+// --- footer / slide number: present, quiet ------------------------------------
+.reveal .footer {
+  font-size: 0.42em;
+  color: $muted-color;
+  opacity: 0.85;
+}
+
+.reveal .slide-number {
+  font-size: 0.5em;
+  color: $muted-color;
+  background: transparent;
+}
+
+// One wordmark in the header (Pisa), sized to stay clear of the title.
+.reveal .header-logo img {
+  max-width: max(150px, 14vw);
+  max-height: max(58px, 8.5vh);
+}
+
+// --- title slide: four organizers, listed as peers ----------------------------
+// The four of us organized this together, so the author block reads as one row of
+// equals rather than a lead author plus a tail.
+.reveal #title-slide .quarto-title-authors {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 0 2.2em;
+  margin-top: 0.7em;
+}
+
+.reveal #title-slide .quarto-title-author {
+  text-align: left;
+}
+
+.reveal #title-slide .quarto-title-author-name {
+  font-size: 0.72em;
+  white-space: nowrap;
+}
+
+// One shared affiliation repeated four times is noise: print it once, underneath.
+.reveal #title-slide .quarto-title-affiliation {
+  display: none;
+}
+
+.reveal #title-slide .quarto-title-authors::after {
+  content: "University of Pisa · organized by PhD students, supported by INFN Sezione di Pisa";
+  display: block;
+  flex-basis: 100%;
+  font-size: 0.62em;
+  font-style: italic;
+  color: $muted-color;
+  margin-top: 0.55em;
+}
+
+// --- slide "Ten invited speakers": a 2x5 grid of name + institution -----------
+// Two columns keep every institution on one line at projector width; the left
+// border in the theme's blue ties the block to the "new directions" color.
+.reveal .speakers {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.42em 1.6em;
+  margin-top: 0.5em;
+}
+
+.reveal .speakers .sp {
+  border-left: 3px solid rgba(59, 126, 161, 0.55);
+  padding: 0.06em 0 0.06em 0.75em;
+  line-height: 1.28;
+}
+
+.reveal .speakers .nm {
+  font-size: 0.76em;
+  font-weight: 500;
+  color: $bulk-color;
+}
+
+.reveal .speakers .af {
+  font-size: 0.6em;
+  color: $muted-color;
+}
+
+// --- slide "A first edition, in numbers": four tiles --------------------------
+.reveal .numbers {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-top: 1.4em;
+  text-align: center;
+}
+
+.reveal .numbers .n {
+  flex: 1;
+  line-height: 1.2;
+}
+
+.reveal .numbers .big {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 2.6em;
+  color: $defect-color;
+}
+
+// The zero is the one number we are proud of for a different reason.
+.reveal .numbers .big.zero {
+  color: $easy-color;
+}
+
+.reveal .numbers .lbl {
+  display: block;
+  font-size: 0.6em;
+  color: $muted-color;
+  margin-top: 0.2em;
+}

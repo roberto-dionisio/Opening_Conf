@@ -1,0 +1,37 @@
+---
+.DS_Store
+**/.DS_Store
+*.swp
+*~
+talk_script*
+
+*.py
+*.py[cod]
+__pycache__/
+figures/README.md
+
+
+/.quarto/
+
+
+/results copy/
+/results/*.md
+/results/*.npz
+
+
+/fin_data/
+/fin_data/*
+/fisher_metric/
+/fisher_metric/*
+# --- leftover style-reference deck from a previous talk (not part of this
+#     project: _quarto.yml only renders optimal_annealing.qmd) -----------------
+/quarto_PhD_seminar.qmd
+/quarto_PhD_seminar.html
+/quarto_PhD_seminar_files/
+/style.scss
+
+# --- unused template / example assets (not referenced by the deck) -----------
+/images/
+/my-iframe/
+/material/
+**/*.quarto_ipynb

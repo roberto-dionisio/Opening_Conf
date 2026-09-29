@@ -1,0 +1,4 @@
+project:
+  title: "StaND4LQ — Opening"
+  render:
+    - opening.qmd
