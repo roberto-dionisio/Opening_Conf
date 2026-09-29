@@ -27,73 +27,104 @@ HERE = Path(__file__).parent
 
 
 # =============================================================================
-# fig_reach -- what lattice field theory can reach, and what still blocks it
+# fig_reach -- what lattice field theory reaches, and the four barriers in the way
 # =============================================================================
+# The wall is built of four named bricks, each one facing the goal it blocks, so
+# the picture and slide 4 ("Four problems. Four communities.") agree. Sampling is
+# the first brick, not an aside: critical slowing down is what stops the
+# continuum limit, exactly as the sign problem stops finite density.
+
+BARRIERS = [
+    ("critical slowing down\n& topological freezing", "the continuum limit"),
+    ("the sign problem", "finite density"),
+    ("analytic continuation", "real-time dynamics"),
+    ("exponential Hilbert space", "large entanglement"),
+]
+
+
 def fig_reach():
-    fig, ax = plt.subplots(figsize=(11.0, 3.95))
+    fig, ax = plt.subplots(figsize=(11.0, 4.6))
     ax.set_xlim(0, 10)
-    ax.set_ylim(0.95, 4.35)
+    ax.set_ylim(0.55, 5.05)
     ax.axis("off")
 
-    y0, h = 2.62, 1.00  # the band of "what we can compute"
-    wx0, ww = 4.60, 0.56  # the wall
+    y0, h = 1.95, 2.52           # the band the four rows share
+    lx0, lw = 0.15, 2.72         # solid ground
+    wx0, ww = 3.00, 3.42         # the wall
+    rx0, rw = 6.72, 3.13         # what it blocks
 
     # --- the reading of the picture, along the top ---------------------------
-    ax.annotate("", xy=(9.85, 4.02), xytext=(0.15, 4.02),
+    ax.annotate("", xy=(9.85, 4.72), xytext=(0.15, 4.72),
                 arrowprops=dict(arrowstyle="-|>,head_width=0.20,head_length=0.40",
                                 color=ts.FAINT, linewidth=1.6,
                                 shrinkA=0, shrinkB=0), zorder=1)
-    ax.text(0.15, 4.14, "STATE OF THE ART", ha="left", va="bottom",
+    ax.text(0.15, 4.84, "STATE OF THE ART", ha="left", va="bottom",
             color=ts.BULK, fontsize=13, zorder=3)
-    ax.text(9.85, 4.14, "NEW DIRECTIONS", ha="right", va="bottom",
+    ax.text(9.85, 4.84, "NEW DIRECTIONS", ha="right", va="bottom",
             color=ts.EASY_TEXT, fontsize=13, zorder=3)
 
     # --- solid ground: the Euclidean, equilibrium, zero-density regime --------
     ax.add_patch(mpatches.FancyBboxPatch(
-        (0.15, y0), 4.30, h, boxstyle="round,pad=0,rounding_size=0.07",
+        (lx0, y0), lw, h, boxstyle="round,pad=0,rounding_size=0.07",
         facecolor=ts.BULK, edgecolor="none", zorder=2))
-    ax.text(2.30, y0 + h * 0.62, "Euclidean  ·  equilibrium  ·  $\\mu = 0$",
-            ha="center", va="center", color="white", fontsize=14, zorder=3)
-    ax.text(2.30, y0 + h * 0.25, "precision at the per-mille level",
+    ax.text(lx0 + lw / 2, y0 + h * 0.58, "Euclidean\nequilibrium\n$\\mu = 0$",
+            ha="center", va="center", color="white", fontsize=14,
+            linespacing=1.5, zorder=3)
+    ax.text(lx0 + lw / 2, y0 + h * 0.22, "precision at the\nper-mille level",
             ha="center", va="center", color="#d3dcdd", fontsize=11.5,
-            style="italic", zorder=3)
+            style="italic", linespacing=1.4, zorder=3)
 
-    # --- the wall: taller than the band, so it plainly interrupts it ----------
+    # --- the wall, brick by brick --------------------------------------------
     ax.add_patch(mpatches.Rectangle(
-        (wx0, y0 - 0.18), ww, h + 0.36, facecolor=_tint(ts.TARGET, 0.16),
-        edgecolor=ts.TARGET, linewidth=1.4, hatch="////", zorder=2))
-    ax.text(wx0 + ww / 2, y0 - 0.34, "the wall", ha="center", va="top",
-            color=ts.TARGET, fontsize=12.5, zorder=3)
+        (wx0, y0 - 0.16), ww, h + 0.32, facecolor=_tint(ts.TARGET, 0.10),
+        edgecolor=ts.TARGET, linewidth=1.8, zorder=2))
+    ax.text(wx0 + ww / 2, y0 - 0.32, "four barriers, not one", ha="center",
+            va="top", color=ts.TARGET, fontsize=12.5, zorder=3)
 
-    # --- the far side: still out of reach ------------------------------------
-    ax.add_patch(mpatches.FancyBboxPatch(
-        (5.40, y0), 4.45, h, boxstyle="round,pad=0,rounding_size=0.07",
-        facecolor="none", edgecolor=ts.MUTED, linewidth=1.3,
-        linestyle=(0, (5, 4)), zorder=2))
-    for label, dy in [("real-time dynamics", 0.76),
-                      ("finite density", 0.50),
-                      ("large entanglement", 0.24)]:
-        ax.text(7.62, y0 + h * dy, label, ha="center", va="center",
+    n = len(BARRIERS)
+    row_h = h / n
+    for i, (barrier, blocked) in enumerate(BARRIERS):
+        yc = y0 + h - (i + 0.5) * row_h        # first barrier at the top
+        if i:                                   # mortar line between bricks
+            ax.plot([wx0 + 0.12, wx0 + ww - 0.12], [yc + row_h / 2] * 2,
+                    color=_tint(ts.TARGET, 0.34), linewidth=0.9, zorder=3)
+        ax.text(wx0 + ww / 2, yc, barrier, ha="center", va="center",
+                color=ts.TARGET, fontsize=11.5, linespacing=1.3, zorder=3)
+
+        # the goal each brick stands in front of, on its own row
+        ax.annotate("", xy=(rx0 - 0.08, yc), xytext=(wx0 + ww + 0.10, yc),
+                    arrowprops=dict(arrowstyle="-|>,head_width=0.16,head_length=0.32",
+                                    color=ts.FAINT, linewidth=1.3,
+                                    shrinkA=0, shrinkB=0), zorder=2)
+        ax.text(rx0 + rw / 2, yc, blocked, ha="center", va="center",
                 color=ts.MUTED, fontsize=12.5, zorder=3)
 
-    # --- the three routes, each spanning the stretch of ground it buys -------
-    # Their left-to-right order is the argument: flows make the reachable region
-    # cheaper, tensor networks and neural states reach the wall itself, quantum
-    # hardware works on the far side. Same three colors as the programme legend.
-    # arrows keep the bright brand value; their labels take the readable twin
+    ax.add_patch(mpatches.FancyBboxPatch(
+        (rx0, y0), rw, h, boxstyle="round,pad=0,rounding_size=0.07",
+        facecolor="none", edgecolor=ts.MUTED, linewidth=1.3,
+        linestyle=(0, (5, 4)), zorder=1))
+
+    # --- the three families of method attacking the wall ---------------------
+    # Drawn as a key, not as arrows along the axis: the barriers are stacked
+    # vertically, so an arrow at a given x would invite a left-to-right reading
+    # onto the bricks that does not exist (flows attack the top brick, not the
+    # left third of the wall). Same three colors as the programme legend, so the
+    # donut on slide 5 is already legible by the time it appears.
     TEXT_TWIN = {ts.DEFECT: ts.DEFECT_TEXT, ts.EASY: ts.EASY_TEXT}
-    y_arr = y0 - 0.72
-    routes = [
-        (0.20, 4.40, "generative models\n& normalizing flows", ts.DEFECT),
-        (4.55, 6.10, "tensor networks\n& neural states", ts.EASY),
-        (6.30, 9.80, "quantum hardware", ts.EASY),
+    y_key = y0 - 0.95
+    ax.text(0.15, y_key + 0.42, "being worked on with", ha="left", va="center",
+            color=ts.MUTED, fontsize=11, style="italic", zorder=4)
+    key = [
+        (0.15, "generative models\n& normalizing flows", ts.DEFECT),
+        (3.70, "tensor networks\n& neural states", ts.EASY),
+        (6.95, "quantum hardware", ts.EASY),
     ]
-    for xa, xb, label, color in routes:
-        ax.annotate("", xy=(xb, y_arr), xytext=(xa, y_arr),
-                    arrowprops=dict(arrowstyle="-|>,head_width=0.20,head_length=0.38",
-                                    color=color, linewidth=2.2,
-                                    shrinkA=0, shrinkB=0), zorder=4)
-        ax.text((xa + xb) / 2, y_arr - 0.20, label, ha="center", va="top",
+    for x, label, color in key:
+        ax.add_patch(mpatches.FancyBboxPatch(
+            (x, y_key - 0.10), 0.20, 0.20,
+            boxstyle="round,pad=0,rounding_size=0.04",
+            facecolor=color, edgecolor="none", zorder=4))
+        ax.text(x + 0.34, y_key, label, ha="left", va="center",
                 color=TEXT_TWIN[color], fontsize=12, linespacing=1.35, zorder=4)
 
     ts.save(fig, "fig_reach")

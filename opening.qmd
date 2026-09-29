@@ -85,14 +85,9 @@ long discussion with no talks at all.
 
 ![](figures/fig_reach.svg)
 
-::: {.fragment .lead style="text-align:center; margin-top:0.3em; font-size:0.8em"}
-The wall is not a technicality. It is a **sign problem**, an ill-posed
-**analytic continuation**, and a Hilbert space that grows **exponentially**.
-:::
-
-::: {.fragment .lead style="text-align:center; margin-top:0.45em; font-size:0.8em"}
-And on this side of it, **critical slowing down** and **topological freezing**
-are what make that precision expensive.
+::: {.fragment .lead style="text-align:center; margin-top:0.35em; font-size:0.8em"}
+**The first one is already here**, at the lattice spacings we use today. The other
+three are why the Hamiltonian formulation keeps coming back.
 :::
 
 ## Four problems. Four communities. {.center}
