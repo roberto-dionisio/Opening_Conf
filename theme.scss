@@ -166,6 +166,16 @@ $easy-text:    $easy-color;
   transition-delay: 0.9s;
 }
 
+// Sponsor slide: the two funders' marks are the content, so give the lockup the
+// width it deserves and centre it (the generic .slides img rule left-aligns a
+// full-width image, which reads as an afterthought on a thank-you slide).
+.reveal .slides img.sponsor-logos {
+  display: block;
+  width: min(80%, 1000px);
+  max-height: none;
+  margin: 0.4em auto 0;
+}
+
 // The walking map to the restaurant is a screenshot with no margin of its own,
 // so give it an edge rather than letting it bleed into the slide background.
 .reveal .slides img.map-shot {
