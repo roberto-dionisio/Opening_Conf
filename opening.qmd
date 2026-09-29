@@ -77,55 +77,17 @@ Three days, [**eighteen talks**]{.defect}, [**nine invited speakers**]{.easy}, a
 long discussion with no talks at all.
 :::
 
-## Lattice field theory is now a precision science
+## Where we are, and what stops us
 
 ::: {.note style="text-align:center; margin-top:-0.5em; font-size:0.85em"}
-…and precisely *because* it is, we can see clearly where it stops.
+A precision science, which is exactly why we can see where it stops.
 :::
 
-![](figures/fig_reach.svg)
+![](figures/fig_reach.svg){.reach-fig}
 
-::: {.fragment .lead style="text-align:center; margin-top:0.35em; font-size:0.8em"}
-**The first one is already here**, at the lattice spacings we use today. The other
-three are why the Hamiltonian formulation keeps coming back.
-:::
-
-## Four problems. Four communities. {.center}
-
-:::: {.columns}
-::: {.column width="50%"}
-
-::: {.fragment style="text-align:center; margin-bottom:0.3em"}
-[**What blocks us**]{style="color:#9C162A; font-size:1.05em"}
-:::
-
-::: {.fragment .lead style="font-size:0.82em; line-height:1.75"}
-- efficient **Monte Carlo sampling**
-- **real-time** dynamics
-- systems at **finite density**
-- gauge theories on **quantum devices**
-:::
-
-:::
-::: {.column width="50%"}
-
-::: {.fragment style="text-align:center; margin-bottom:0.3em"}
-[**Who is needed**]{style="color:#3B7EA1; font-size:1.05em"}
-:::
-
-::: {.fragment .lead style="font-size:0.82em; line-height:1.75"}
-- lattice **field theory**
-- **quantum information**
-- **machine learning**
-- quantum **many-body** physics
-:::
-
-:::
-::::
-
-::: {.fragment style="margin-top:1.3em"}
-::: {.eqbox style="display:block; text-align:center; font-size:0.9em"}
-None of these four problems belongs to a single community <br>
+::: {.fragment style="margin-top:0.3em"}
+::: {.eqbox style="display:block; text-align:center; font-size:0.8em"}
+Not one of these four belongs to a single community, <br>
 and that is the entire premise of this meeting.
 :::
 :::

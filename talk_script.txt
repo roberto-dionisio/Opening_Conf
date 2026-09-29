@@ -4,23 +4,23 @@ Roberto Dionisio
 Wednesday 30 September 2026, 09:00-09:15, Aula Magna, Polo Fibonacci
 ===============================================================================
 
-12 slides, 21 clicks. "-> CLICK" marks a fragment.
+11 slides, 16 clicks. "-> CLICK" marks a fragment.
 
-Reading this at a measured pace comes to about 10 min 30 s, which sits
+Reading this at a measured pace comes to about 10 min, which sits
 comfortably inside the 09:00-09:15 slot. The spare four minutes are there on
 purpose: people arrive late, laptops misbehave, and you want to hand over to
 Claudio without rushing. Do not try to fill them.
 
 TIMING CHECKPOINTS (from a 09:00 start)
-    09:04   leaving slide 3, the precision-science figure
-    09:06   leaving slide 5, the wheel
-    09:09   on slide 8, practical information
-    09:11   done, handing over
+    09:04   leaving slide 3, the wall figure
+    09:05   leaving slide 4, the wheel
+    09:07   on slide 7, practical information
+    09:10   done, handing over
 
 IF YOU ARE RUNNING LATE, cut in this order:
     1. the four barriers on slide 3 - name two, not four
-    2. the wedge-by-wedge walk on slide 5 - give the totals only
-    3. slide 8 down to venue + coffee, drop the timing paragraph
+    2. the wedge-by-wedge walk on slide 4 - give the totals only
+    3. slide 7 down to venue + coffee, drop the timing paragraph
 
 
 ===============================================================================
@@ -58,7 +58,7 @@ because it is the part I care about most.
 
 
 ===============================================================================
-SLIDE 3 - LATTICE FIELD THEORY IS NOW A PRECISION SCIENCE                [2:05]
+SLIDE 3 - WHERE WE ARE, AND WHAT STOPS US                                [2:34]
 ===============================================================================
 
 Let me say why we thought this particular meeting was worth organising.
@@ -87,39 +87,19 @@ stands in front of something specific.
     And the exponential growth of the Hilbert space blocks anything with a
     lot of entanglement.
 
+The first of those is not exotic and it is not in the future. It is already
+here, at the lattice spacings we use today. The other three are the reason
+the Hamiltonian formulation keeps coming back.
+
 At the bottom are the three families of method being thrown at that wall:
 generative models and normalising flows, tensor networks and neural quantum
-states, and quantum hardware.
+states, and quantum hardware. Lattice field theory, quantum information,
+machine learning, quantum many-body physics.
 
     -> CLICK
 
-One thing worth noticing. The first barrier is not exotic and it is not in
-the future. It is already here, at the lattice spacings we use today. The
-other three are the reason the Hamiltonian formulation keeps coming back.
-
-
-===============================================================================
-SLIDE 4 - FOUR PROBLEMS. FOUR COMMUNITIES.                               [0:53]
-===============================================================================
-
-The same four problems, written plainly.
-
-    -> CLICK   (heading "What blocks us")
-    -> CLICK   (the list)
-
-Efficient Monte Carlo sampling. Real-time dynamics. Systems at finite
-density. And gauge theories on quantum devices.
-
-    -> CLICK   (heading "Who is needed")
-    -> CLICK   (the list)
-
-And here is who is needed to solve them. Lattice field theory. Quantum
-information. Machine learning. Quantum many-body physics.
-
-    -> CLICK   (the box)
-
-Now look at the two lists together. Not one of those four problems belongs to
-a single one of those four communities. Not one.
+And here is the point. Not one of those four barriers belongs to a single one
+of those communities. Not one.
 
 That is the entire premise of this meeting. It is why we did not organise a
 lattice workshop, and we did not organise a quantum simulation workshop. We
@@ -127,7 +107,7 @@ organised this.
 
 
 ===============================================================================
-SLIDE 5 - FIVE MAIN AREAS                                                [1:08]
+SLIDE 4 - FIVE MAIN AREAS                                                [1:08]
 ===============================================================================
 
 Here is how the eighteen talks actually divide up.
@@ -159,7 +139,7 @@ and seven. Three communities, in more or less equal thirds.
 
 
 ===============================================================================
-SLIDE 6 - NINE INVITED SPEAKERS                                          [0:43]
+SLIDE 5 - NINE INVITED SPEAKERS                                          [0:43]
 ===============================================================================
 
 These are our nine invited speakers. Bern, Southern Denmark, Southampton,
@@ -176,7 +156,7 @@ and in several cases they are the newest work in the room.
 
 
 ===============================================================================
-SLIDE 7 - THE SESSION WITH NO TALKS                                      [1:01]
+SLIDE 6 - THE SESSION WITH NO TALKS                                      [1:01]
 ===============================================================================
 
 Now the part I promised to come back to.
@@ -200,7 +180,7 @@ the slot that matters. Please use it.
 
 
 ===============================================================================
-SLIDE 8 - PRACTICAL INFORMATION                                          [1:05]
+SLIDE 7 - PRACTICAL INFORMATION                                          [1:05]
 ===============================================================================
 
 Some practical things.
@@ -221,7 +201,7 @@ slightly anxious. Or write to the address on the screen.
 
 
 ===============================================================================
-SLIDE 9 - SOCIAL DINNER                                                  [0:34]
+SLIDE 8 - SOCIAL DINNER                                                  [0:34]
 ===============================================================================
 
 The social dinner is on Thursday evening, eight o'clock, at Ristorante La
@@ -235,7 +215,7 @@ not yet told us whether you are coming, please find one of us today.
 
 
 ===============================================================================
-SLIDE 10 - WITH THE SUPPORT OF                                           [0:34]
+SLIDE 9 - WITH THE SUPPORT OF                                            [0:34]
 ===============================================================================
 
 None of this would have happened without support.
@@ -253,7 +233,7 @@ PhD students, that mattered enormously.
 
 
 ===============================================================================
-SLIDE 11 - THANK YOU                                                     [0:35]
+SLIDE 10 - THANK YOU                                                     [0:35]
 ===============================================================================
 
 Two thank yous before I stop.
@@ -273,7 +253,7 @@ is four PhD students in an empty lecture hall.
 
 
 ===============================================================================
-SLIDE 12 - ENJOY THE WORKSHOP                                            [0:13]
+SLIDE 11 - ENJOY THE WORKSHOP                                            [0:13]
 ===============================================================================
 
 That is everything from me.
@@ -287,13 +267,12 @@ Enjoy the workshop.
 NOTES TO SELF
 ===============================================================================
 
-- Slide 3 is the one that can run away with you. Four barriers, one sentence
-  each, then move. Do not start explaining the sign problem.
+- Slide 3 is the one that can run away with you, and it is now carrying what
+  used to be two slides. Four barriers, one sentence each, then move. Do not
+  start explaining the sign problem. Let the box land before you deliver the
+  "not one of them" line - it works better after a beat of silence.
 
-- On slide 4, let the box land before you speak. The line works better after
-  a beat of silence than on top of the animation.
-
-- Slide 5 has five clicks in quick succession. Say the area, say the number,
+- Slide 4 has five clicks in quick succession. Say the area, say the number,
   click. Do not editorialise until all five are up.
 
 - First talk is Claudio Bonanno at 09:15 on non-perturbative QCD inputs for

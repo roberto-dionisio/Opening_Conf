@@ -232,6 +232,13 @@ $easy-text:    $easy-color;
   margin: 0.4em auto 0;
 }
 
+// The merged "where we are" slide carries the figure plus a closing box, so the
+// figure has to give up a little width to leave the box room above the footer.
+.reveal .slides img.reach-fig {
+  width: 92%;
+  margin: 0 auto;
+}
+
 // The walking map to the restaurant is a screenshot with no margin of its own,
 // so give it an edge rather than letting it bleed into the slide background.
 .reveal .slides img.map-shot {
@@ -320,7 +327,7 @@ $easy-text:    $easy-color;
 }
 
 .reveal #title-slide .quarto-title-authors::after {
-  content: "University of Pisa · organized by PhD students, supported by INFN Sezione di Pisa";
+  content: "Organized by PhD students, supported by INFN Sezione di Pisa and the University of Pisa";
   display: block;
   flex-basis: 100%;
   font-size: 0.66em;
@@ -382,12 +389,6 @@ $easy-text:    $easy-color;
   color: $easy-text;
 }
 
-// The extension colours the title subtitle with the bright secondary, which is
-// a 2.4:1 fill colour doing a text job on the one slide everyone photographs.
-.reveal #title-slide .subtitle,
-.reveal #title-slide .workshop {
-  color: $defect-text;
-}
 
 .reveal .numbers .lbl {
   display: block;
